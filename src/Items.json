@@ -1,0 +1,17 @@
+{
+    "items": [{
+      "id": 0,
+      "itemName": "Coal",
+      "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/58/Coal_JE4_BE3.png"
+    },
+    {
+      "id": 1,
+      "itemName": "Iron",
+      "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fc/Iron_Ingot_JE3_BE2.png"
+    },
+    {
+      "id": 2,
+      "itemName": "Gold",
+      "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8a/Gold_Ingot_JE4_BE2.png"
+    }]
+}
