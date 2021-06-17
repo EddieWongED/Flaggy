@@ -1,17 +1,23 @@
 {
     "items": [{
       "id": 0,
-      "itemName": "Coal",
+      "englishName": "Coal",
+      "chineseName": "煤炭",
+      "display": "Coal",
       "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/58/Coal_JE4_BE3.png"
     },
     {
       "id": 1,
-      "itemName": "Iron",
+      "englishName": "Iron",
+      "chineseName": "鐵錠",
+      "display": "Iron",
       "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fc/Iron_Ingot_JE3_BE2.png"
     },
     {
       "id": 2,
-      "itemName": "Gold",
+      "englishName": "Gold",
+      "chineseName": "金錠",
+      "display": "Gold",
       "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8a/Gold_Ingot_JE4_BE2.png"
     }]
 }
