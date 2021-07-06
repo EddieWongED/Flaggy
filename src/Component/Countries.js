@@ -1,7 +1,10 @@
 import React from 'react'
 import '../index.css'
+import {ThemeContext} from '../Theme';
 
 const Country = (props) => {
+  
+  const context = React.useContext(ThemeContext);
 
   const handleClick = (e) => {
     alert("You are clicking: " + props.country.englishName);
@@ -10,11 +13,17 @@ const Country = (props) => {
   // returning a JSX
   return (
     <React.Fragment>
-      <div className='country' onClick={handleClick}>
-        <div className="country-content">
-          <CountryFlag country={props.country}/>
-          <CountryName country={props.country} lang={props.lang}/>
-          <CountryMetadata country={props.country}/>
+      <div className='country-div' onClick={handleClick} theme={context}>
+        <div className="country-content-div">
+          <div className="country-flag-div">
+            <CountryFlag country={props.country}/>
+          </div>
+          <div className="country-title-div">  
+            <CountryName country={props.country} lang={props.lang}/>
+          </div>
+          <div className="content-table-div">    
+            <CountryMetadata country={props.country}/>
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -24,14 +33,14 @@ const Country = (props) => {
 const CountryFlag = (props) => {
   const {flag, englishName} = props.country;
   return (
-    <img className="country-flag" src={flag} alt={englishName}/>
+    <img className="country-flag-img" src={flag} alt={englishName}/>
   )
 }
   
 const CountryName = (props) => {
   let name = props.lang === "English" ? props.country.englishName : props.country.chineseName;
   return (
-    <h2 className="country-title">
+    <h2 className="country-title-h2">
     {name}
     </h2>
   )
@@ -39,8 +48,9 @@ const CountryName = (props) => {
 
 const CountryMetadata = (props) => {
   const {code, continent, language, capitalEnglish, capitalChinese, currency} = props.country;
+  const context = React.useContext(ThemeContext);
   return (
-    <table className="content-table">
+    <table className="content-table" theme={context}>
       <thead>
           <tr>
               <th>Metadata</th>
