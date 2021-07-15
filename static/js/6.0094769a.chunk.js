@@ -1,0 +1,2 @@
+(this.webpackJsonptestapp=this.webpackJsonptestapp||[]).push([[6],{57:function(t,e,s){},62:function(t,e,s){"use strict";s.r(e);s(57),s(25);var c=s(1);e.default=function(){return Object(c.jsx)("div",{className:"tab-div",children:Object(c.jsxs)("ul",{className:"tab-content-table",children:[Object(c.jsx)("li",{className:"tab-content-item",children:"Sort"}),Object(c.jsx)("li",{className:"tab-content-item",children:"Test"})]})})}}}]);
+//# sourceMappingURL=6.0094769a.chunk.js.map

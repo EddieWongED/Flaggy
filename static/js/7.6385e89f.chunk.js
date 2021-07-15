@@ -1,2 +1,0 @@
-(this.webpackJsonptestapp=this.webpackJsonptestapp||[]).push([[7],{26:function(t,e,s){"use strict";s.r(e);s(1);var n=s(0);e.default=function(t){return Object(n.jsx)("h1",{children:t.resource.num.read()})}}}]);
-//# sourceMappingURL=7.6385e89f.chunk.js.map

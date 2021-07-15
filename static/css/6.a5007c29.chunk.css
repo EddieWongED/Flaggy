@@ -1,0 +1,2 @@
+.tab-content-table{display:-webkit-flex;display:flex;-webkit-justify-content:space-evenly;justify-content:space-evenly;-webkit-flex-direction:row;flex-direction:row}.tab-content-item{position:relative;width:50px;margin:0 5px;list-style:none;line-height:50px;text-align:center;font-weight:700;font-size:25px;color:var(--light-mode-white-quaternary)}.tab-content-item:after{content:"";position:absolute;height:3px;right:0;bottom:0;width:100%;background:#428bff}
+/*# sourceMappingURL=6.a5007c29.chunk.css.map */
