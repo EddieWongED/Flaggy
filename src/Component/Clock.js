@@ -24,9 +24,10 @@ class Clock extends React.Component {
     }
   
     render() {
+      let options = { hour12: false };
       return (
         <>
-          <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+          <h2>{this.state.date.toLocaleTimeString('en-US', options)}</h2>
         </>
       );
     }

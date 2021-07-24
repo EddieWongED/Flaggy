@@ -1,0 +1,10 @@
+{
+    "en": {
+        "countryName": "English",
+        "countryCode": "gb"
+    },
+    "zh-TW": {
+        "countryName": "繁體中文",
+        "countryCode": "hk"
+    }
+}

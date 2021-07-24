@@ -1,0 +1,55 @@
+.sort-option-div {
+  display: flex;
+  flex-direction: row;
+  cursor: grab;
+  border-radius: 5px;
+  margin-bottom: 1px;
+  min-width: 240px;
+  height: 40px;
+}
+
+.sort-option-div[theme="light"] {
+  border-top: 1px solid rgba(242, 242, 242, 1);
+  border-left: 1px solid rgba(242, 242, 242, 1);
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.sort-option-div[theme="dark"] {
+  border-right: 1px solid rgba(242, 242, 242, 0.6);
+  border-bottom: 1px solid rgba(242, 242, 242, 0.6);
+  border-left: 1px solid rgba(128, 128, 128, 0.5);
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.sort-option-numbering-div {
+  display: flex;
+  flex-direction: row;
+  font-size: 23px;
+  width: 100%;
+  flex-basis: calc(20% - 10px);
+  margin: 6px;
+}
+
+.sort-numbering {
+  margin-right: 10px;
+}
+
+.sort-option-img-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.sort-option-img {
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+.sort-option-img[theme="light"] {
+  content: url("https://img.icons8.com/windows/32/000000/move-grabber.png");
+}
+
+.sort-option-img[theme="dark"] {
+  content: url("https://img.icons8.com/windows/32/ffffff/move-grabber.png");
+}

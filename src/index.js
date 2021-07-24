@@ -1,28 +1,31 @@
 import React, {useState, Suspense} from 'react'
 import ReactDom from 'react-dom'
 import loadable from '@loadable/component'
+import { useTranslation } from 'react-i18next'
 
+import './i18n/config'
 import './index.css'
 import {createResource} from './API'
-import {ThemeContext} from './Theme';
+import {ThemeContext} from './Theme'
+import CountriesSection from './Component/CountriesSection.js'
+import NavBar from './Component/NavBar.js'
 
-const resource = createResource();
-console.log(resource);
+// const resource = createResource();
+// console.log(resource);
 
 // stateless functional component (must captialize the first character)
 function App() {
   
+  const {t} = useTranslation();
+  
+  console.log();
+  
   createLocalStorage();
 
-  const [countries, setCountries] = useState(resource.countries);
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
   const [navBarShown, setNavBarShown] = React.useState(false)
 
   const Clock = loadable(() => import('./Component/Clock.js'));
-  const Number = loadable(() => import('./Component/Number.js'));
-  const CountriesSection = loadable(() => import('./Component/CountriesSection.js'));
-  const NavBar = loadable(() => import('./Component/NavBar.js'));
-  
 
   function handleThemeClick() {
     setTheme(prevState => {
@@ -41,7 +44,7 @@ function App() {
         <div className="page-right-div" theme={theme}>
           <div className="top-div">
             <div className="title-div">
-              <h1>Countries List</h1> 
+              <h1>{t('title')}</h1> 
             </div>
             <div className="clock-div">
               <Suspense fallback={<div>Loading...</div>}>
@@ -50,7 +53,7 @@ function App() {
             </div>
           </div>
           <div className="bottom-div">
-            <CountriesSection countries={countries} setCountries={setCountries}/>
+            <CountriesSection/>
           </div>
         </div>
       </div>

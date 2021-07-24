@@ -1,3 +1,4 @@
+
 const wrapPromise = (promise) => {
     let status = "pending";
     let result = "";
@@ -29,7 +30,6 @@ export const randomNumber = () => {
 export const createResource = () => {
     return {
         num: wrapPromise(randomNumber()),
-        countries: require('./Countries.json')
     }
 }
 

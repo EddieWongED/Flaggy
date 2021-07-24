@@ -1,0 +1,27 @@
+.horizontal-line {
+  height: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.horizontal-line[theme="light"] {
+  background-color: #d3d3d3;
+}
+
+.horizontal-line[theme="dark"] {
+  background-color: #7d7d7d;
+}
+
+.card {
+  border-top: 1px solid rgba(242, 242, 242, 1);
+  border-left: 1px solid rgba(242, 242, 242, 1);
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.card[theme="dark"] {
+  border-right: 1px solid rgba(242, 242, 242, 0.6);
+  border-bottom: 1px solid rgba(242, 242, 242, 0.6);
+  border-left: 1px solid rgba(128, 128, 128, 0.5);
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
+}

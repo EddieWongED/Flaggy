@@ -1,9 +1,81 @@
-import React, { Component } from "react"
+import React from "react"
 import '../index.css'
 import '../style/switch.css'
 import '../style/navBar.css'
+import '../style/dropdownMenu.css'
+import 'flag-icon-css/css/flag-icon.min.css'
 import {ThemeContext} from '../Theme';
+import i18next from 'i18next'
+import { useTranslation } from 'react-i18next'
 
+let languages = require("../i18n/languages.json")
+
+const DropdownOptions = (props) => {
+    const context = React.useContext(ThemeContext);
+    return Object.keys(languages).map((key) => {
+        const {countryCode, countryName} = languages[key];
+        return ( 
+            <a key={key} id={key} theme={context} className="language-a" onClick={() => {i18next.changeLanguage(key)}}>
+                <span className={`flag-icon flag-icon-${countryCode} language-flag-span`}/>
+                <div className="language-option-div">
+                    {countryName} ({key})
+                </div>
+            </a>   
+        )
+    })
+}
+
+const NavBarOptions = (props) => {
+    const {handleThemeClick, navbarshown, list} = props;
+    const context = React.useContext(ThemeContext);
+
+    const {t} = useTranslation();
+
+    return (
+    <ul ref={list} className="nav-list" theme={context} navbarshown={navbarshown.toString()}>
+        <li theme={context}>
+            <a className="sidebar-option-a" href="https://github.com/EddieWongED/CountriesList" theme={context} navbarshown={navbarshown.toString()}>
+                <div className="nav-option-div">
+                    <img className="github_img" theme={context} alt="github_img"/>
+                    <span className="links_name">{t("sourceCode")}</span>
+                </div>
+            </a>
+            {/* <span class="tooltip">Source Code</span> */}
+        </li>
+        <li theme={context}>
+            <a className="sidebar-option-a" theme={context} navbarshown={navbarshown.toString()}>
+                <div className="nav-option-div">
+                    <img className="theme-img" theme={context} alt="theme-img"/>
+                    <span className="links_name">{t("darkMode")}</span>
+                </div>
+                <label className="switch">
+                    <input type="checkbox" defaultChecked={context === "dark"} onClick={handleThemeClick} />
+                    <span className="slider round"></span>
+                </label>
+            </a>
+            {/* <span class="tooltip">Source Code</span> */}
+        </li>
+        <li theme={context}>
+            <a className="sidebar-option-a" theme={context} navbarshown={navbarshown.toString()}>
+                <div className="nav-option-div">
+                    <img  className="lang-img" theme={context} alt="lang-img"/>
+                    <span className="links_name">{t("language")}</span>
+                </div>     
+                <div className="dropdown-div">
+                    <div className="dropdown-btn-div">
+                        <button className="dropdown-btn" theme={context}>{i18next.language}</button>
+                        <div className="test"/>
+                    </div>
+                    <div className="dropdown-content-div" theme={context}>
+                        <DropdownOptions/>
+                    </div>
+                </div>
+            </a>
+            {/* <span class="tooltip">Source Code</span> */}
+        </li>
+    </ul>
+    )
+}
 const NavBar = (props) => {
     const context = React.useContext(ThemeContext);
     const [navBarShown, setNavBarShown] = React.useState(true);
@@ -13,7 +85,7 @@ const NavBar = (props) => {
     const logoName = React.useRef(null);
     const menu = React.useRef(null);
     const logoContent = React.useRef(null);
-        
+
     function toggleMenu(e) {
         
         setNavBarShown((prevState) => {
@@ -41,40 +113,14 @@ const NavBar = (props) => {
         <div ref={sideBar} className="sidebar-div" theme={context}>
             <div ref={logoContent} className="logo-content-div">
                 <div ref={logoImg} className="logo-img-div">
-                    <img className="logo-img" theme={context}/>
+                    <img className="logo-img" theme={context} alt="logo-img"/>
                 </div>
                 <div ref={logoName} className="logo-name-div">Flaggy</div>
                 <div ref={menu} className="menu-img-div" onClick={toggleMenu}>
-                    <img className="menu-img"theme={context}/>
+                    <img className="menu-img" theme={context} alt="menu-img"/>
                 </div>
             </div>
-            <ul ref={list} className="nav-list" theme={context} navBarShown={navBarShown.toString()}>
-                <li theme={context}>
-                    <a href="https://github.com/EddieWongED/CountriesList" theme={context}>
-                        <img className="github_img" theme={context}/>
-                        <span className="links_name">Source Code</span>
-                    </a>
-                    {/* <span class="tooltip">Source Code</span> */}
-                </li>
-                <li theme={context}>
-                    <a href="#" theme={context}>
-                        <img className="theme-img" theme={context}/>
-                        <span className="links_name">Dark Mode</span>
-                        <label class="switch">
-                            <input type="checkbox" defaultChecked={context === "dark"} onClick={props.handleThemeClick} />
-                            <span class="slider round"></span>
-                        </label>
-                    </a>
-                    {/* <span class="tooltip">Source Code</span> */}
-                </li>
-                <li theme={context}>
-                    <a href="#" theme={context}>
-                        <img  className="settings-img" theme={context}/>
-                        <span className="links_name">Settings</span>
-                    </a>
-                    {/* <span class="tooltip">Source Code</span> */}
-                </li>
-            </ul>
+            <NavBarOptions navbarshown={navBarShown} list={list} handleThemeClick={props.handleThemeClick}/>
             <div className="profile-div">
                 <div className="profile-content-div">
                     <div className="profile-name">

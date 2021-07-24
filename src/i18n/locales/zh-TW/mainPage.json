@@ -1,0 +1,19 @@
+{
+    "title": "國家列表",
+    "metadata": "詮釋資料",
+    "value": "數值",
+    "code": "代碼",
+    "continent": "洲",
+    "capital": "首都",
+    "currency": "貨幣",
+    "search": "搜尋",
+    "sourceCode": "原始碼",
+    "darkMode": "深色模式",
+    "language": "語言",
+    "sort": "排序",
+    "favourite": "喜愛",
+    "filter": "篩選",
+    "alphabetical": "字母",
+    "noOfLetters": "字母數量",
+    "noOfLanguages": "語言數量"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Countries List",
+    "metadata": "Metadata",
+    "value": "Value",
+    "code": "Code",
+    "continent": "Continent",
+    "capital": "Capital",
+    "currency": "Currency",
+    "search": "Search",
+    "sourceCode": "Source Code",
+    "darkMode": "Dark Mode",
+    "language": "Language",
+    "sort": "Sort",
+    "favourite": "Favourite",
+    "filter": "Filter",
+    "alphabetical": "Alphabetical",
+    "noOfLetters": "No. of Letters",
+    "noOfLanguages": "No. of Languages"
+}

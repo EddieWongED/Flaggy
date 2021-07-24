@@ -29,7 +29,7 @@
 .sidebar-div ul {
   margin-top: 20px;
   padding: 0;
-  overflow: hidden;
+  overflow: visible;
   opacity: 0;
   height: 0;
 }
@@ -38,7 +38,10 @@
   -webkit-transition: opacity 1s linear;
   -moz-transition: opacity 1s linear;
   transition: opacity 1s linear;
-  transition-delay: 300ms;
+  transition-delay: 350ms;
+}
+
+.sidebar-div ul[navBarShown="true"] {
 }
 
 .sidebar-div ul li {
@@ -50,12 +53,12 @@
   line-height: 50px;
 }
 
-.sidebar-div ul li a[theme="dark"]:hover {
+.sidebar-div ul li .sidebar-option-a[theme="dark"]:hover {
   background-color: var(--neon-blue);
   transition: background-color 250ms ease;
 }
 
-.sidebar-div ul li a[theme="light"]:hover {
+.sidebar-div ul li .sidebar-option-a[theme="light"]:hover {
   background-color: var(--light-mode-white-tertiary);
   transition: background-color 250ms ease;
 }
@@ -66,17 +69,40 @@
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 111;
+  cursor: pointer;
 }
 
-.sidebar-div ul li a[theme="dark"] {
+.sidebar-div ul li .sidebar-option-a[navBarShown="true"] {
+  display: none;
+}
+
+.sidebar-div ul li .sidebar-option-a[theme="dark"] {
   color: var(--dark-mode-white-font);
 }
 
-.sidebar-div ul li a[theme="light"] {
+.sidebar-div ul li .sidebar-option-a[theme="light"] {
   color: var(--light-mode-dark-font);
 }
 
-.sidebar-div ul li a img {
+.sidebar-div ul li .sidebar-option-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 111;
+  cursor: pointer;
+}
+
+.sidebar-div ul li .sidebar-option-a .nav-option-div {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 111;
+  cursor: pointer;
+}
+.sidebar-div ul li .sidebar-option-a img {
   height: 32px;
   width: 32px;
   margin: 12px;
@@ -98,12 +124,12 @@
   content: url("https://img.icons8.com/ios-glyphs/30/000000/sun--v1.png");
 }
 
-.sidebar-div ul li .settings-img[theme="dark"] {
-  content: url("https://img.icons8.com/material-rounded/24/ffffff/settings.png");
+.sidebar-div ul li .lang-img[theme="dark"] {
+  content: url("https://img.icons8.com/material-rounded/48/ffffff/language.png");
 }
 
-.sidebar-div ul li .settings-img[theme="light"] {
-  content: url("https://img.icons8.com/material-rounded/24/000000/settings.png");
+.sidebar-div ul li .lang-img[theme="light"] {
+  content: url("https://img.icons8.com/material-rounded/48/000000/language.png");
 }
 
 .profile-div {

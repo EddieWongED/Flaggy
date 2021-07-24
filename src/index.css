@@ -2,14 +2,17 @@
   --dark-mode-dark-primary: #15232d;
   --dark-mode-dark-secondary: #193549;
   --dark-mode-dark-tertiary: #20435c;
+  --dark-mode-dark-quaternary: #193b59;
   --dark-mode-white-font: hsl(0, 0%, 100%);
 
   --light-mode-white-primary: #ffffff;
   --light-mode-white-secondary: #f3f3f3;
   --light-mode-white-tertiary: #ececec;
+  --light-mode-white-quaternary: #ccc;
   --light-mode-dark-font: #1c1c1c;
 
   --neon-blue: #5469d4;
+  --light-blue: #428bff;
 }
 
 * {
@@ -34,6 +37,8 @@ body {
   height: 100vh;
   position: sticky;
   top: 0px;
+  overflow: visible;
+  z-index: 2;
 }
 
 .page-left-div[theme="light"] {
@@ -53,8 +58,10 @@ body {
   min-height: 100vh;
   width: 100%;
   padding-left: 10px;
+  padding-right: 10px;
   height: 100%;
   overflow-y: auto;
+  z-index: 1;
 }
 
 .page-right-div[theme="light"] {
@@ -109,85 +116,11 @@ body {
 
 /* under bottom-div */
 
-.search-div {
-  display: flex;
-  position: relative;
-  top: 1px;
-  left: 1px;
-  flex-direction: row;
-}
-
-.lang-btn-div {
-  position: relative;
-}
-
 .countries-list-div {
   margin: 1rem auto;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-}
-
-/* under search-div */
-.search-img-div {
-  cursor: pointer;
-}
-
-.search-input {
-  visibility: hidden;
-  color: #222;
-  font-size: 20px;
-  line-height: 28px;
-  width: 0%;
-  padding: 8px 16px;
-  min-height: 44px;
-  border-radius: 4px;
-  outline-color: rgb(84 105 212 / 0.5);
-  background-color: rgb(255, 255, 255);
-  box-shadow: 2px 2px 2px black;
-  transition: width 500ms ease-in-out, visibility 450ms ease;
-}
-
-.search-input[theme="dark"] {
-  border: 1px solid var(--dark-mode-dark-tertiary);
-  box-shadow: 5px 5px 3px var(--dark-mode-dark-tertiary);
-}
-
-.search-input[theme="light"] {
-  border: 1px solid var(--light-mode-dark-font);
-  box-shadow: 2px 2px 2px var(--light-mode-dark-font);
-}
-
-/* under search-img-div */
-.search-img {
-  height: 36px;
-  margin: 0px 8px 0px 0px;
-}
-
-/* under lang-btn-div */
-.lang-btn {
-  border: 1px solid var(--neon-blue);
-  background: var(--neon-blue);
-  padding: 10px 20px;
-  font-size: 20px;
-
-  cursor: pointer;
-  margin: 10px;
-  transition: 0.8s;
-  position: relative;
-  overflow: hidden;
-}
-
-.lang-btn[theme="dark"] {
-  color: var(--dark-mode-white-font);
-}
-
-.lang-btn[theme="light"] {
-  color: var(--light-mode-dark-font);
-}
-
-.lang-btn:hover {
-  box-shadow: 3px 5px 10px var(--neon-blue);
 }
 
 /* under countries-list-div */
@@ -206,7 +139,6 @@ body {
 .country-div:hover {
   cursor: pointer;
   height: 380px;
-  transform: scale(1.05);
   transition: height 500ms ease;
 }
 

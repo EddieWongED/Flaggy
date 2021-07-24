@@ -1,0 +1,2191 @@
+{
+"countries": [
+    {
+        "name": "Afghanistan",
+		"flag": "https://www.fotw.info/images/a/af.gif",
+		"language": ["Pashto", "Dari Persian"],
+		"continent": "Asia",
+		"capital": "Kabul",
+		"currency": "Afghani (AFN)",
+		"code": "AF"
+    },
+    {
+        "name": "Åland Islands",
+		"flag": "https://www.fotw.info/images/a/ax.gif",
+		"language": ["Swedish"],
+		"continent": "Europe",
+		"capital": "Mariehamn",
+		"currency": "Euro (EUR)",
+		"code": "AX"
+    },
+    {
+        "name": "Albania",
+		"flag": "https://www.fotw.info/images/a/al.gif",
+		"language": ["Albanian"],
+		"continent": "Europe",
+		"capital": "Tirana",
+		"currency": "Lek (ALL)",
+		"code": "AL"
+    },
+    {
+        "name": "Algeria",
+		"flag": "https://www.fotw.info/images/d/dz.gif",
+		"language": ["Arabic"],
+		"continent": "Africa",
+		"capital": "Algiers",
+		"currency": "Algerian dinar (DZD)",
+		"code": "DZ"
+    },
+    {
+        "name": "American Samoa",
+		"flag": "https://www.fotw.info/images/a/as.gif",
+		"language": ["English", "Samoan"],
+		"continent": "Oceania",
+		"capital": "Pago Pago",
+		"currency": "United States dollar (USD)",
+		"code": "AS"
+    },
+    {
+        "name": "Andorra",
+		"flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/188px-Flag_of_Andorra.svg.png",
+		"language": ["Catalan"],
+		"continent": "Europe",
+		"capital": "Andorra la Vella",
+		"currency": "Euro (EUR)",
+		"code": "AD"
+    },
+    {
+        "name": "Angola",
+		"flag": "https://www.fotw.info/images/a/ao.gif",
+		"language": ["Portugese"],
+		"continent": "Africa",
+		"capital": "Luanda",
+		"currency": "Kwanza (AOA)",
+		"code": "AO"
+    },
+    {
+        "name": "Anguilla",
+		"flag": "https://www.fotw.info/images/a/ai.gif",
+		"language": ["English"],
+		"continent": "Europe",
+		"capital": "The Valley",
+		"currency": "Eastern Caribbean dollar (XCD)",
+		"code": "AI"
+    },
+    {
+        "name": "Antarctica",
+		"flag": "https://www.fotw.info/images/a/aq.gif",
+		"language": ["N/A"],
+		"continent": "Antarctica",
+		"capital": "N/A",
+		"currency": "N/A",
+		"code": "AQ"
+    },
+    {
+        "name": "Antigua and Barbuda",
+		"flag": "https://www.fotw.info/images/a/ag.gif",
+		"language": ["English"],
+		"continent": "North America",
+		"capital": "St. John's",
+		"currency": "East Caribbean dollar (XCD)",
+		"code": "AG"
+    },
+    {
+        "name": "Argentina",
+		"flag": "https://www.fotw.info/images/a/ar.gif",
+		"language": ["Spanish"],
+		"continent": "South America",
+		"capital": "Buenos Aires",
+		"currency": "Argentine peso (ARS)",
+		"code": "AR"
+    },
+    {
+        "name": "Armenia",
+		"flag": "https://www.fotw.info/images/a/am.gif",
+		"language": ["Armenian"],
+		"continent": "Asia",
+		"capital": "Yerevan",
+		"currency": "Dram (AMD)",
+		"code": "AM"
+    },
+    {
+        "name": "Aruba",
+		"flag": "https://www.fotw.info/images/a/aw.gif",
+		"language": ["Dutch", "Papiamento"],
+		"continent": "South America",
+		"capital": "Oranjestad",
+		"currency": "Aruban florin (AWG)",
+		"code": "AW"
+    },
+    {
+        "name": "Australia",
+		"flag": "https://www.fotw.info/images/a/au.gif",
+		"language": ["English"],
+		"continent": "Oceania",
+		"capital": "Canberra",
+		"currency": "Australian dollar (AUD)",
+		"code": "AU"
+    },
+    {
+        "name": "Austria",
+		"flag": "https://www.fotw.info/images/a/at.gif",
+		"language": ["German"],
+		"continent": "Europe",
+		"capital": "Vienna",
+		"currency": "Euro (EUR)",
+		"code": "AT"
+    },
+    {
+        "name": "Azerbaijan",
+		"flag": "https://www.fotw.info/images/a/az.gif",
+		"language": ["Azerbaijani"],
+		"continent": "Europe & Asia",
+		"capital": "",
+		"currency": "Manat (AZN)",
+		"code": "AZ"
+    },
+    {
+        "name": "Bahamas",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BS"
+    },
+    {
+        "name": "Bahrain",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BH"
+    },
+    {
+        "name": "Bangladesh",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BD"
+    },
+    {
+        "name": "Barbados",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BB"
+    },
+    {
+        "name": "Belarus",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BY"
+    },
+    {
+        "name": "Belgium",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BE"
+    },
+    {
+        "name": "Belize",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BZ"
+    },
+    {
+        "name": "Benin",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BJ"
+    },
+    {
+        "name": "Bermuda",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BM"
+    },
+    {
+        "name": "Bhutan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BT"
+    },
+    {
+        "name": "Bolivia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BO"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BA"
+    },
+    {
+        "name": "Botswana",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BW"
+    },
+    {
+        "name": "Bouvet Island",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BV"
+    },
+    {
+        "name": "Brazil",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BR"
+    },
+    {
+        "name": "British Indian Ocean Territory",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "IO"
+    },
+    {
+        "name": "Brunei Darussalam",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BN"
+    },
+    {
+        "name": "Bulgaria",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BG"
+    },
+    {
+        "name": "Burkina Faso",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BF"
+    },
+    {
+        "name": "Burundi",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "BI"
+    },
+    {
+        "name": "Cambodia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KH"
+    },
+    {
+        "name": "Cameroon",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CM"
+    },
+    {
+        "name": "Canada",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CA"
+    },
+    {
+        "name": "Cape Verde",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CV"
+    },
+    {
+        "name": "Cayman Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KY"
+    },
+    {
+        "name": "Central African Republic",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CF"
+    },
+    {
+        "name": "Chad",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TD"
+    },
+    {
+        "name": "Chile",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CL"
+    },
+    {
+        "name": "China",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CN"
+    },
+    {
+        "name": "Christmas Island",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CX"
+    },
+    {
+        "name": "Cocos (Keeling) Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CC"
+    },
+    {
+        "name": "Colombia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CO"
+    },
+    {
+        "name": "Comoros",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KM"
+    },
+    {
+        "name": "Congo",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CG"
+    },
+    {
+        "name": "Congo, The Democratic Republic of the",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CD"
+    },
+    {
+        "name": "Cook Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CK"
+    },
+    {
+        "name": "Costa Rica",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CR"
+    },
+    {
+        "name": "Cote D\"Ivoire",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CI"
+    },
+    {
+        "name": "Croatia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "HR"
+    },
+    {
+        "name": "Cuba",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CU"
+    },
+    {
+        "name": "Cyprus",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CY"
+    },
+    {
+        "name": "Czech Republic",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CZ"
+    },
+    {
+        "name": "Denmark",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "DK"
+    },
+    {
+        "name": "Djibouti",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "DJ"
+    },
+    {
+        "name": "Dominica",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "DM"
+    },
+    {
+        "name": "Dominican Republic",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "DO"
+    },
+    {
+        "name": "Ecuador",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "EC"
+    },
+    {
+        "name": "Egypt",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "EG"
+    },
+    {
+        "name": "El Salvador",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SV"
+    },
+    {
+        "name": "Equatorial Guinea",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GQ"
+    },
+    {
+        "name": "Eritrea",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ER"
+    },
+    {
+        "name": "Estonia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "EE"
+    },
+    {
+        "name": "Ethiopia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ET"
+    },
+    {
+        "name": "Falkland Islands (Malvinas)",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "FK"
+    },
+    {
+        "name": "Faroe Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "FO"
+    },
+    {
+        "name": "Fiji",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "FJ"
+    },
+    {
+        "name": "Finland",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "FI"
+    },
+    {
+        "name": "France",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "FR"
+    },
+    {
+        "name": "French Guiana",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GF"
+    },
+    {
+        "name": "French Polynesia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PF"
+    },
+    {
+        "name": "French Southern Territories",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TF"
+    },
+    {
+        "name": "Gabon",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GA"
+    },
+    {
+        "name": "Gambia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GM"
+    },
+    {
+        "name": "Georgia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GE"
+    },
+    {
+        "name": "Germany",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "DE"
+    },
+    {
+        "name": "Ghana",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GH"
+    },
+    {
+        "name": "Gibraltar",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GI"
+    },
+    {
+        "name": "Greece",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GR"
+    },
+    {
+        "name": "Greenland",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GL"
+    },
+    {
+        "name": "Grenada",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GD"
+    },
+    {
+        "name": "Guadeloupe",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GP"
+    },
+    {
+        "name": "Guam",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GU"
+    },
+    {
+        "name": "Guatemala",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GT"
+    },
+    {
+        "name": "Guernsey",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GG"
+    },
+    {
+        "name": "Guinea",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GN"
+    },
+    {
+        "name": "Guinea-Bissau",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GW"
+    },
+    {
+        "name": "Guyana",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GY"
+    },
+    {
+        "name": "Haiti",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "HT"
+    },
+    {
+        "name": "Heard Island and Mcdonald Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "HM"
+    },
+    {
+        "name": "Holy See (Vatican City State)",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "VA"
+    },
+    {
+        "name": "Honduras",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "HN"
+    },
+    {
+        "name": "Hong Kong",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "HK"
+    },
+    {
+        "name": "Hungary",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "HU"
+    },
+    {
+        "name": "Iceland",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "IS"
+    },
+    {
+        "name": "India",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "IN"
+    },
+    {
+        "name": "Indonesia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ID"
+    },
+    {
+        "name": "Iran, Islamic Republic Of",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "IR"
+    },
+    {
+        "name": "Iraq",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "IQ"
+    },
+    {
+        "name": "Ireland",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "IE"
+    },
+    {
+        "name": "Isle of Man",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "IM"
+    },
+    {
+        "name": "Israel",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "IL"
+    },
+    {
+        "name": "Italy",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "IT"
+    },
+    {
+        "name": "Jamaica",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "JM"
+    },
+    {
+        "name": "Japan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "JP"
+    },
+    {
+        "name": "Jersey",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "JE"
+    },
+    {
+        "name": "Jordan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "JO"
+    },
+    {
+        "name": "Kazakhstan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KZ"
+    },
+    {
+        "name": "Kenya",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KE"
+    },
+    {
+        "name": "Kiribati",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KI"
+    },
+    {
+        "name": "Korea, Democratic People\"S Republic of",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KP"
+    },
+    {
+        "name": "Korea, Republic of",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KR"
+    },
+    {
+        "name": "Kuwait",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KW"
+    },
+    {
+        "name": "Kyrgyzstan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KG"
+    },
+    {
+        "name": "Lao People\"S Democratic Republic",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LA"
+    },
+    {
+        "name": "Latvia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LV"
+    },
+    {
+        "name": "Lebanon",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LB"
+    },
+    {
+        "name": "Lesotho",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LS"
+    },
+    {
+        "name": "Liberia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LR"
+    },
+    {
+        "name": "Libyan Arab Jamahiriya",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LY"
+    },
+    {
+        "name": "Liechtenstein",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LI"
+    },
+    {
+        "name": "Lithuania",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LT"
+    },
+    {
+        "name": "Luxembourg",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LU"
+    },
+    {
+        "name": "Macao",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MO"
+    },
+    {
+        "name": "Macedonia, The Former Yugoslav Republic of",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MK"
+    },
+    {
+        "name": "Madagascar",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MG"
+    },
+    {
+        "name": "Malawi",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MW"
+    },
+    {
+        "name": "Malaysia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MY"
+    },
+    {
+        "name": "Maldives",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MV"
+    },
+    {
+        "name": "Mali",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ML"
+    },
+    {
+        "name": "Malta",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MT"
+    },
+    {
+        "name": "Marshall Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MH"
+    },
+    {
+        "name": "Martinique",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MQ"
+    },
+    {
+        "name": "Mauritania",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MR"
+    },
+    {
+        "name": "Mauritius",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MU"
+    },
+    {
+        "name": "Mayotte",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "YT"
+    },
+    {
+        "name": "Mexico",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MX"
+    },
+    {
+        "name": "Micronesia, Federated States of",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "FM"
+    },
+    {
+        "name": "Moldova, Republic of",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MD"
+    },
+    {
+        "name": "Monaco",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MC"
+    },
+    {
+        "name": "Mongolia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MN"
+    },
+    {
+        "name": "Montserrat",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MS"
+    },
+    {
+        "name": "Morocco",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MA"
+    },
+    {
+        "name": "Mozambique",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MZ"
+    },
+    {
+        "name": "Myanmar",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MM"
+    },
+    {
+        "name": "Namibia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NA"
+    },
+    {
+        "name": "Nauru",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NR"
+    },
+    {
+        "name": "Nepal",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NP"
+    },
+    {
+        "name": "Netherlands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NL"
+    },
+    {
+        "name": "Netherlands Antilles",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "AN"
+    },
+    {
+        "name": "New Caledonia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NC"
+    },
+    {
+        "name": "New Zealand",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NZ"
+    },
+    {
+        "name": "Nicaragua",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NI"
+    },
+    {
+        "name": "Niger",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NE"
+    },
+    {
+        "name": "Nigeria",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NG"
+    },
+    {
+        "name": "Niue",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NU"
+    },
+    {
+        "name": "Norfolk Island",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NF"
+    },
+    {
+        "name": "Northern Mariana Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "MP"
+    },
+    {
+        "name": "Norway",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "NO"
+    },
+    {
+        "name": "Oman",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "OM"
+    },
+    {
+        "name": "Pakistan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PK"
+    },
+    {
+        "name": "Palau",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PW"
+    },
+    {
+        "name": "Palestinian Territory, Occupied",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PS"
+    },
+    {
+        "name": "Panama",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PA"
+    },
+    {
+        "name": "Papua New Guinea",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PG"
+    },
+    {
+        "name": "Paraguay",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PY"
+    },
+    {
+        "name": "Peru",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PE"
+    },
+    {
+        "name": "Philippines",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PH"
+    },
+    {
+        "name": "Pitcairn",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PN"
+    },
+    {
+        "name": "Poland",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PL"
+    },
+    {
+        "name": "Portugal",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PT"
+    },
+    {
+        "name": "Puerto Rico",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PR"
+    },
+    {
+        "name": "Qatar",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "QA"
+    },
+    {
+        "name": "Reunion",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "RE"
+    },
+    {
+        "name": "Romania",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "RO"
+    },
+    {
+        "name": "Russian Federation",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "RU"
+    },
+    {
+        "name": "RWANDA",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "RW"
+    },
+    {
+        "name": "Saint Helena",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SH"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "KN"
+    },
+    {
+        "name": "Saint Lucia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LC"
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "PM"
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "VC"
+    },
+    {
+        "name": "Samoa",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "WS"
+    },
+    {
+        "name": "San Marino",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SM"
+    },
+    {
+        "name": "Sao Tome and Principe",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ST"
+    },
+    {
+        "name": "Saudi Arabia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SA"
+    },
+    {
+        "name": "Senegal",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SN"
+    },
+    {
+        "name": "Serbia and Montenegro",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CS"
+    },
+    {
+        "name": "Seychelles",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SC"
+    },
+    {
+        "name": "Sierra Leone",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SL"
+    },
+    {
+        "name": "Singapore",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SG"
+    },
+    {
+        "name": "Slovakia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SK"
+    },
+    {
+        "name": "Slovenia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SI"
+    },
+    {
+        "name": "Solomon Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SB"
+    },
+    {
+        "name": "Somalia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SO"
+    },
+    {
+        "name": "South Africa",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ZA"
+    },
+    {
+        "name": "South Georgia and the South Sandwich Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GS"
+    },
+    {
+        "name": "Spain",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ES"
+    },
+    {
+        "name": "Sri Lanka",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "LK"
+    },
+    {
+        "name": "Sudan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SD"
+    },
+    {
+        "name": "Suriname",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SR"
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SJ"
+    },
+    {
+        "name": "Swaziland",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SZ"
+    },
+    {
+        "name": "Sweden",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SE"
+    },
+    {
+        "name": "Switzerland",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "CH"
+    },
+    {
+        "name": "Syrian Arab Republic",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "SY"
+    },
+    {
+        "name": "Taiwan, Province of China",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TW"
+    },
+    {
+        "name": "Tajikistan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TJ"
+    },
+    {
+        "name": "Tanzania, United Republic of",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TZ"
+    },
+    {
+        "name": "Thailand",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TH"
+    },
+    {
+        "name": "Timor-Leste",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TL"
+    },
+    {
+        "name": "Togo",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TG"
+    },
+    {
+        "name": "Tokelau",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TK"
+    },
+    {
+        "name": "Tonga",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TO"
+    },
+    {
+        "name": "Trinidad and Tobago",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TT"
+    },
+    {
+        "name": "Tunisia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TN"
+    },
+    {
+        "name": "Turkey",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TR"
+    },
+    {
+        "name": "Turkmenistan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TM"
+    },
+    {
+        "name": "Turks and Caicos Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TC"
+    },
+    {
+        "name": "Tuvalu",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "TV"
+    },
+    {
+        "name": "Uganda",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "UG"
+    },
+    {
+        "name": "Ukraine",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "UA"
+    },
+    {
+        "name": "United Arab Emirates",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "AE"
+    },
+    {
+        "name": "United Kingdom",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "GB"
+    },
+    {
+        "name": "United States",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "US"
+    },
+    {
+        "name": "United States Minor Outlying Islands",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "UM"
+    },
+    {
+        "name": "Uruguay",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "UY"
+    },
+    {
+        "name": "Uzbekistan",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "UZ"
+    },
+    {
+        "name": "Vanuatu",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "VU"
+    },
+    {
+        "name": "Venezuela",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "VE"
+    },
+    {
+        "name": "Viet Nam",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "VN"
+    },
+    {
+        "name": "Virgin Islands, British",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "VG"
+    },
+    {
+        "name": "Virgin Islands, U.S.",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "VI"
+    },
+    {
+        "name": "Wallis and Futuna",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "WF"
+    },
+    {
+        "name": "Western Sahara",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "EH"
+    },
+    {
+        "name": "Yemen",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "YE"
+    },
+    {
+        "name": "Zambia",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ZM"
+    },
+    {
+        "name": "Zimbabwe",
+		"flag": "",
+		"language": [""],
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ZW"
+    }
+ ]   
+}
