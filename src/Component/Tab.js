@@ -64,7 +64,7 @@ const Sort = (props) => {
                     .map((sortOption, index) => {
                         return (
                         <div className="sort-option-numbering-div">
-                            <div className="sort-numbering">
+                            <div className="sort-numbering no-select">
                                 {`${index + 1}.`}
                             </div>
                             <SortOptions key={sortOption.id} optionID={sortOption.id} handleDrag={handleDrag} handleDrop={handleDrop}/>
@@ -151,7 +151,7 @@ class TabOptions extends React.Component {
         const options = ["sort", "filter", "search", "favourite"];
         const optionImgs = {"sort": sortImg, "filter": filterImg, "search": searchImg, "favourite": favouriteImg};
         return (
-        <div className="tab-div" >
+        <div className="tab-div no-select" >
             <ul className="tab-content-table">
                 {options.map((option) => (
                     <li id={option} className={`tab-content-item ${option}-li`} onClick={this.props.handleTabChange} tabOpened={this.props.tabOpened} theme={this.context}>

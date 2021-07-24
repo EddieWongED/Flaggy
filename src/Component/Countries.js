@@ -1,5 +1,6 @@
 import React from 'react'
 import '../index.css'
+import "../style/miscellaneous.css"
 import {ThemeContext} from '../Theme';
 import { useTranslation, withTranslation } from 'react-i18next';
 
@@ -16,7 +17,7 @@ const Country = (props) => {
     <React.Fragment>
       <div className='country-div' onClick={handleClick} theme={context}>
         <div className="country-content-div">
-          <div className="country-flag-div">
+          <div className="country-flag-div no-select">
             <CountryFlag country={props.country}/>
           </div>
           <div className="country-title-div">  
@@ -56,29 +57,29 @@ const CountryMetadata = (props) => {
     <table className="content-table" theme={context}>
       <thead>
           <tr>
-              <th>{t("metadata")}</th>
-              <th>{t("value")}</th>
+              <th className="no-select">{t("metadata")}</th>
+              <th className="no-select">{t("value")}</th>
           </tr>
       </thead>
       <tbody>
           <tr>
-              <td>{t("code")}</td>
+              <td className="no-select">{t("code")}</td>
               <td>{code}</td>
           </tr>
           <tr>
-              <td>{t("continent")}</td>
+              <td className="no-select">{t("continent")}</td>
               <td>{continent}</td>
           </tr>
           <tr>
-              <td>{t("language")}</td>
+              <td className="no-select">{t("language")}</td>
               <td>{language.join(", ")}</td>
           </tr>
           <tr>
-              <td>{t("capital")}</td>
+              <td className="no-select">{t("capital")}</td>
               <td>{capital}</td>
           </tr>
           <tr>
-              <td>{t("currency")}</td>
+              <td className="no-select">{t("currency")}</td>
               <td>{currency}</td>
           </tr>
       </tbody>

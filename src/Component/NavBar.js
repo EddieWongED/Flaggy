@@ -110,7 +110,7 @@ const NavBar = (props) => {
     }
 
     return (
-        <div ref={sideBar} className="sidebar-div" theme={context}>
+        <div ref={sideBar} className="sidebar-div no-select" theme={context}>
             <div ref={logoContent} className="logo-content-div">
                 <div ref={logoImg} className="logo-img-div">
                     <img className="logo-img" theme={context} alt="logo-img"/>

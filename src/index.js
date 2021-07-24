@@ -5,7 +5,8 @@ import { useTranslation } from 'react-i18next'
 
 import './i18n/config'
 import './index.css'
-import {createResource} from './API'
+import './style/miscellaneous.css'
+
 import {ThemeContext} from './Theme'
 import CountriesSection from './Component/CountriesSection.js'
 import NavBar from './Component/NavBar.js'
@@ -43,7 +44,7 @@ function App() {
         </div>
         <div className="page-right-div" theme={theme}>
           <div className="top-div">
-            <div className="title-div">
+            <div className="title-div no-select">
               <h1>{t('title')}</h1> 
             </div>
             <div className="clock-div">
