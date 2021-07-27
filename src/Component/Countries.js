@@ -131,24 +131,24 @@ class Countries extends React.Component {
       "alphabetical": (countryA, countryB) => countryA.name.localeCompare(countryB.name),
       "code": (countryA, countryB) => countryA.code.localeCompare(countryB.code),
       "continent": (countryA, countryB) => countryA.continent.localeCompare(countryB.continent),
-      "noOfLanguages": (countryA, countryB) => countryB.language.length - countryA.language.length,
+      "noOfLanguages": (countryA, countryB) => countryA.language.length - countryB.language.length,
       "capital": (countryA, countryB) => countryA.capital.localeCompare(countryB.capital),
       "currency": (countryA, countryB) => countryA.currency.localeCompare(countryB.currency),
-      "noOfLetters": (countryA, countryB) => countryB.name.length - countryA.name.length,
-      "population": (countryA, countryB) => countryB.population - countryA.population,
-      "area": (countryA, countryB) => countryB.area - countryA.area
+      "noOfLetters": (countryA, countryB) => countryA.name.length - countryB.name.length,
+      "population": (countryA, countryB) => countryA.population - countryB.population,
+      "area": (countryA, countryB) => countryA.area - countryB.area
     }   
 
     let descendingDict = {
       "alphabetical": (countryA, countryB) => countryB.name.localeCompare(countryA.name),
       "code": (countryA, countryB) => countryB.code.localeCompare(countryA.code),
       "continent": (countryA, countryB) => countryB.continent.localeCompare(countryA.continent),
-      "noOfLanguages": (countryA, countryB) => countryA.language.length - countryB.language.length,
+      "noOfLanguages": (countryA, countryB) => countryB.language.length - countryA.language.length,
       "capital": (countryA, countryB) => countryB.capital.localeCompare(countryA.capital),
       "currency": (countryA, countryB) => countryB.currency.localeCompare(countryA.currency),
-      "noOfLetters": (countryA, countryB) => countryA.name.length - countryB.name.length,
-      "population": (countryA, countryB) => countryA.population - countryB.population,
-      "area": (countryA, countryB) => countryA.area - countryB.area
+      "noOfLetters": (countryA, countryB) => countryB.name.length - countryA.name.length,
+      "population": (countryA, countryB) => countryB.population - countryA.population,
+      "area": (countryA, countryB) => countryB.area - countryA.area
     }  
 
     let sortDict = {};
