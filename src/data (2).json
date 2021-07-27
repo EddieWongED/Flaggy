@@ -1,0 +1,1623 @@
+      [
+        {
+          "country": "Afghanistan",
+          "continent": "Asia",
+          "subregion": "Southern Asia"
+        },
+        {
+          "country": "Albania",
+
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Algeria",
+          "population": "44616.6240",
+          "area": 2381741,
+          "continent": "Africa",
+          "subregion": "Northern Africa"
+        },
+        {
+          "country": "American Samoa",
+          "population": "55.1000",
+          "area": 199,
+          "continent": "Oceania",
+          "subregion": "Polynesia"
+        },
+        {
+          "country": "Andorra",
+          "population": "77.3550",
+          "area": 468,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Angola",
+          "population": "33933.6100",
+          "area": 1246700,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Anguilla",
+          "population": "15.1170",
+          "area": 91,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Antigua and Barbuda",
+          "population": "98.7310",
+          "area": 442,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Argentina",
+          "population": "45605.8260",
+          "area": 2780400,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Armenia",
+          "population": "2968.1270",
+          "area": 29743,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Aruba",
+          "population": "107.2040",
+          "area": 180,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Australia",
+          "population": "25788.2150",
+          "area": 7692024,
+          "continent": "Oceania",
+          "subregion": "Australia and New Zealand"
+        },
+        {
+          "country": "Austria",
+          "population": "9043.0700",
+          "area": 83871,
+          "continent": "Europe",
+          "subregion": "Western Europe"
+        },
+        {
+          "country": "Azerbaijan",
+          "population": "10223.3420",
+          "area": 86600,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Bahamas",
+          "population": "396.9130",
+          "area": 13943,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Bahrain",
+          "population": "1748.2960",
+          "area": 765,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Bangladesh",
+          "population": "166303.4980",
+          "area": 147570,
+          "continent": "Asia",
+          "subregion": "Southern Asia"
+        },
+        {
+          "country": "Barbados",
+          "population": "287.7110",
+          "area": 430,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Belarus",
+          "population": "9442.8620",
+          "area": 207600,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Belgium",
+          "population": "11632.3260",
+          "area": 30528,
+          "continent": "Europe",
+          "subregion": "Western Europe"
+        },
+        {
+          "country": "Belize",
+          "population": "404.9140",
+          "area": 22966,
+          "continent": "Americas",
+          "subregion": "Central America"
+        },
+        {
+          "country": "Benin",
+          "population": "12451.0400",
+          "area": 112622,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Bermuda",
+          "population": "62.0900",
+          "area": 54,
+          "continent": "Americas",
+          "subregion": "Northern America"
+        },
+        {
+          "country": "Bhutan",
+          "population": "779.8980",
+          "area": 38394,
+          "continent": "Asia",
+          "subregion": "Southern Asia"
+        },
+        {
+          "country": "Bolivia",
+          "population": "11832.9400",
+          "area": 1098581,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "population": "3263.4660",
+          "area": 51209,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Botswana",
+          "population": "2397.2410",
+          "area": 582000,
+          "continent": "Africa",
+          "subregion": "Southern Africa"
+        },
+        {
+          "country": "Brazil",
+          "population": "213993.4370",
+          "area": 8515767,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "British Virgin Islands",
+          "population": "30.4210",
+          "area": 151,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Brunei",
+          "population": "441.5320",
+          "area": 5765,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Bulgaria",
+          "population": "6896.6630",
+          "area": 110879,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Burkina Faso",
+          "population": "21497.0960",
+          "area": 272967,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Burundi",
+          "population": "12255.4330",
+          "area": 27834,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Cambodia",
+          "population": "16946.4380",
+          "area": 181035,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Cameroon",
+          "population": "27224.2650",
+          "area": 475442,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Canada",
+          "population": "38067.9030",
+          "area": 9984670,
+          "continent": "Americas",
+          "subregion": "Northern America"
+        },
+        {
+          "country": "Cape Verde",
+          "population": "561.8980",
+          "area": 4033,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Cayman Islands",
+          "population": "66.4970",
+          "area": 264,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Central African Republic",
+          "population": "4919.9810",
+          "area": 622984,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Chad",
+          "population": "16914.9850",
+          "area": 1284000,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Chile",
+          "population": "19212.3610",
+          "area": 756102,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "China",
+          "population": "1444216.1070",
+          "area": 9706961,
+          "continent": "Asia",
+          "subregion": "Eastern Asia"
+        },
+        {
+          "country": "Colombia",
+          "population": "51265.8440",
+          "area": 1141748,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Comoros",
+          "population": "888.4510",
+          "area": 1862,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Cook Islands",
+          "population": "17.5650",
+          "area": 236,
+          "continent": "Oceania",
+          "subregion": "Polynesia"
+        },
+        {
+          "country": "Costa Rica",
+          "population": "5139.0520",
+          "area": 51100,
+          "continent": "Americas",
+          "subregion": "Central America"
+        },
+        {
+          "country": "Croatia",
+          "population": "4081.6510",
+          "area": 56594,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Cuba",
+          "population": "11317.5050",
+          "area": 109884,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Curacao",
+          "population": "164.7980",
+          "area": 444,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Cyprus",
+          "population": "1215.5840",
+          "area": 9251,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Czech Republic",
+          "population": "10724.5550",
+          "area": 78865,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Denmark",
+          "population": "5813.2980",
+          "area": 43094,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "Djibouti",
+          "population": "1002.1870",
+          "area": 23200,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Dominica",
+          "population": "72.1670",
+          "area": 751,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Dominican Republic",
+          "population": "10953.7030",
+          "area": 48671,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "DR Congo",
+          "population": "92377.9930",
+          "area": 2344858,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Ecuador",
+          "population": "17888.4750",
+          "area": 276841,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Egypt",
+          "population": "104258.3270",
+          "area": 1002450,
+          "continent": "Africa",
+          "subregion": "Northern Africa"
+        },
+        {
+          "country": "El Salvador",
+          "population": "6518.4990",
+          "area": 21041,
+          "continent": "Americas",
+          "subregion": "Central America"
+        },
+        {
+          "country": "Equatorial Guinea",
+          "population": "1449.8960",
+          "area": 28051,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Eritrea",
+          "population": "3601.4670",
+          "area": 117600,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Estonia",
+          "population": "1325.1850",
+          "area": 45227,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "Eswatini",
+          "population": "1172.3620",
+          "area": 17364,
+          "continent": "Africa",
+          "subregion": "Southern Africa"
+        },
+        {
+          "country": "Ethiopia",
+          "population": "117876.2270",
+          "area": 1104300,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Falkland Islands",
+          "population": "3.5330",
+          "area": 12173,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Faroe Islands",
+          "population": "49.0490",
+          "area": 1393,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "Fiji",
+          "population": "902.9060",
+          "area": 18272,
+          "continent": "Oceania",
+          "subregion": "Melanesia"
+        },
+        {
+          "country": "Finland",
+          "population": "5548.3600",
+          "area": 338424,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "France",
+          "population": "65426.1790",
+          "area": 551695,
+          "continent": "Europe",
+          "subregion": "Western Europe"
+        },
+        {
+          "country": "French Guiana",
+          "population": "306.4480",
+          "area": 83534,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "French Polynesia",
+          "population": "282.5300",
+          "area": 4167,
+          "continent": "Oceania",
+          "subregion": "Polynesia"
+        },
+        {
+          "country": "Gabon",
+          "population": "2278.8250",
+          "area": 267668,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Gambia",
+          "population": "2486.9450",
+          "area": 10689,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Georgia",
+          "population": "3979.7650",
+          "area": 69700,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Germany",
+          "population": "83900.4730",
+          "area": 357114,
+          "continent": "Europe",
+          "subregion": "Western Europe"
+        },
+        {
+          "country": "Ghana",
+          "population": "31732.1290",
+          "area": 238533,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Gibraltar",
+          "population": "33.6980",
+          "area": 6,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Greece",
+          "population": "10370.7440",
+          "area": 131990,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Greenland",
+          "population": "56.8770",
+          "area": 2166086,
+          "continent": "Americas",
+          "subregion": "Northern America"
+        },
+        {
+          "country": "Grenada",
+          "population": "113.0210",
+          "area": 344,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Guadeloupe",
+          "population": "400.0200",
+          "area": 1628,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Guam",
+          "population": "170.1790",
+          "area": 549,
+          "continent": "Oceania",
+          "subregion": "Micronesia"
+        },
+        {
+          "country": "Guatemala",
+          "population": "18249.8600",
+          "area": 108889,
+          "continent": "Americas",
+          "subregion": "Central America"
+        },
+        {
+          "country": "Guinea",
+          "population": "13497.2440",
+          "area": 245857,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Guinea-Bissau",
+          "population": "2015.4940",
+          "area": 36125,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Guyana",
+          "population": "790.3260",
+          "area": 214969,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Haiti",
+          "population": "11541.6850",
+          "area": 27750,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Honduras",
+          "population": "10062.9910",
+          "area": 112492,
+          "continent": "Americas",
+          "subregion": "Central America"
+        },
+        {
+          "country": "Hong Kong",
+          "population": "7552.8100",
+          "area": 1104,
+          "continent": "Asia",
+          "subregion": "Eastern Asia"
+        },
+        {
+          "country": "Hungary",
+          "population": "9634.1640",
+          "area": 93028,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Iceland",
+          "population": "343.3530",
+          "area": 103000,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "India",
+          "population": "1393409.0380",
+          "area": 3287590,
+          "continent": "Asia",
+          "subregion": "Southern Asia"
+        },
+        {
+          "country": "Indonesia",
+          "population": "276361.7830",
+          "area": 1904569,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Iran",
+          "population": "85028.7590",
+          "area": 1648195,
+          "continent": "Asia",
+          "subregion": "Southern Asia"
+        },
+        {
+          "country": "Iraq",
+          "population": "41179.3500",
+          "area": 438317,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Ireland",
+          "population": "4982.9070",
+          "area": 70273,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "Isle of Man",
+          "population": "85.4100",
+          "area": 572,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "Israel",
+          "population": "8789.7740",
+          "area": 20770,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Italy",
+          "population": "60367.4770",
+          "area": 301336,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Ivory Coast",
+          "population": "27053.6290",
+          "area": 322463,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Jamaica",
+          "population": "2973.4630",
+          "area": 10991,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Japan",
+          "population": "126050.8040",
+          "area": 377930,
+          "continent": "Asia",
+          "subregion": "Eastern Asia"
+        },
+        {
+          "country": "Jordan",
+          "population": "10269.0210",
+          "area": 89342,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Kazakhstan",
+          "population": "18994.9620",
+          "area": 2724900,
+          "continent": "Asia",
+          "subregion": "Central Asia"
+        },
+        {
+          "country": "Kenya",
+          "population": "54985.6980",
+          "area": 580367,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Kiribati",
+          "population": "121.3920",
+          "area": 811,
+          "continent": "Oceania",
+          "subregion": "Micronesia"
+        },
+        {
+          "country": "Kuwait",
+          "population": "4328.5500",
+          "area": 17818,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Kyrgyzstan",
+          "population": "6628.3560",
+          "area": 199951,
+          "continent": "Asia",
+          "subregion": "Central Asia"
+        },
+        {
+          "country": "Laos",
+          "population": "7379.3580",
+          "area": 236800,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Latvia",
+          "population": "1866.9420",
+          "area": 64559,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "Lebanon",
+          "population": "6769.1460",
+          "area": 10452,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Lesotho",
+          "population": "2159.0790",
+          "area": 30355,
+          "continent": "Africa",
+          "subregion": "Southern Africa"
+        },
+        {
+          "country": "Liberia",
+          "population": "5180.2030",
+          "area": 111369,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Libya",
+          "population": "6958.5320",
+          "area": 1759540,
+          "continent": "Africa",
+          "subregion": "Northern Africa"
+        },
+        {
+          "country": "Liechtenstein",
+          "population": "38.2500",
+          "area": 160,
+          "continent": "Europe",
+          "subregion": "Western Europe"
+        },
+        {
+          "country": "Lithuania",
+          "population": "2689.8620",
+          "area": 65300,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "Luxembourg",
+          "population": "634.8140",
+          "area": 2586,
+          "continent": "Europe",
+          "subregion": "Western Europe"
+        },
+        {
+          "country": "Macau",
+          "population": "658.3940",
+          "area": 30,
+          "continent": "Asia",
+          "subregion": "Eastern Asia"
+        },
+        {
+          "country": "Madagascar",
+          "population": "28427.3280",
+          "area": 587041,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Malawi",
+          "population": "19647.6840",
+          "area": 118484,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Malaysia",
+          "population": "32776.1940",
+          "area": 330803,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Maldives",
+          "population": "543.6170",
+          "area": 300,
+          "continent": "Asia",
+          "subregion": "Southern Asia"
+        },
+        {
+          "country": "Mali",
+          "population": "20855.7350",
+          "area": 1240192,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Malta",
+          "population": "442.7840",
+          "area": 316,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Marshall Islands",
+          "population": "59.6100",
+          "area": 181,
+          "continent": "Oceania",
+          "subregion": "Micronesia"
+        },
+        {
+          "country": "Martinique",
+          "population": "374.7450",
+          "area": 1128,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Mauritania",
+          "population": "4775.1190",
+          "area": 1030700,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Mauritius",
+          "population": "1273.4330",
+          "area": 2040,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Mayotte",
+          "population": "279.5150",
+          "area": 374,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Mexico",
+          "population": "130262.2160",
+          "area": 1964375,
+          "continent": "Americas",
+          "subregion": "Central America"
+        },
+        {
+          "country": "Micronesia",
+          "population": "116.2540",
+          "area": 702,
+          "continent": "Oceania",
+          "subregion": "Micronesia"
+        },
+        {
+          "country": "Moldova",
+          "population": "4024.0190",
+          "area": 33846,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Monaco",
+          "population": "39.5110",
+          "area": 2,
+          "continent": "Europe",
+          "subregion": "Western Europe"
+        },
+        {
+          "country": "Mongolia",
+          "population": "3329.2890",
+          "area": 1564110,
+          "continent": "Asia",
+          "subregion": "Eastern Asia"
+        },
+        {
+          "country": "Montenegro",
+          "population": "628.0530",
+          "area": 13812,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Montserrat",
+          "population": "4.9770",
+          "area": 102,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Morocco",
+          "population": "37344.7950",
+          "area": 446550,
+          "continent": "Africa",
+          "subregion": "Northern Africa"
+        },
+        {
+          "country": "Mozambique",
+          "population": "32163.0470",
+          "area": 801590,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Myanmar",
+          "population": "54806.0120",
+          "area": 676578,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Namibia",
+          "population": "2587.3440",
+          "area": 825615,
+          "continent": "Africa",
+          "subregion": "Southern Africa"
+        },
+        {
+          "country": "Nauru",
+          "population": "10.8760",
+          "area": 21,
+          "continent": "Oceania",
+          "subregion": "Micronesia"
+        },
+        {
+          "country": "Nepal",
+          "population": "29674.9200",
+          "area": 147181,
+          "continent": "Asia",
+          "subregion": "Southern Asia"
+        },
+        {
+          "country": "Netherlands",
+          "population": "17173.0990",
+          "area": 41850,
+          "continent": "Europe",
+          "subregion": "Western Europe"
+        },
+        {
+          "country": "New Caledonia",
+          "population": "288.2180",
+          "area": 18575,
+          "continent": "Oceania",
+          "subregion": "Melanesia"
+        },
+        {
+          "country": "New Zealand",
+          "population": "4860.6430",
+          "area": 270467,
+          "continent": "Oceania",
+          "subregion": "Australia and New Zealand"
+        },
+        {
+          "country": "Nicaragua",
+          "population": "6702.3850",
+          "area": 130373,
+          "continent": "Americas",
+          "subregion": "Central America"
+        },
+        {
+          "country": "Niger",
+          "population": "25130.8170",
+          "area": 1267000,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Nigeria",
+          "population": "211400.7080",
+          "area": 923768,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Niue",
+          "population": "1.6190",
+          "area": 260,
+          "continent": "Oceania",
+          "subregion": "Polynesia"
+        },
+        {
+          "country": "North Korea",
+          "population": "25887.0410",
+          "area": 120538,
+          "continent": "Asia",
+          "subregion": "Eastern Asia"
+        },
+        {
+          "country": "North Macedonia",
+          "population": "2082.6580",
+          "area": 25713,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Northern Mariana Islands",
+          "population": "57.9170",
+          "area": 464,
+          "continent": "Oceania",
+          "subregion": "Micronesia"
+        },
+        {
+          "country": "Norway",
+          "population": "5465.6300",
+          "area": 323802,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "Oman",
+          "population": "5223.3750",
+          "area": 309500,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Pakistan",
+          "population": "225199.9370",
+          "area": 881912,
+          "continent": "Asia",
+          "subregion": "Southern Asia"
+        },
+        {
+          "country": "Palau",
+          "population": "18.1690",
+          "area": 459,
+          "continent": "Oceania",
+          "subregion": "Micronesia"
+        },
+        {
+          "country": "Palestine",
+          "population": "5222.7480",
+          "area": 6220,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Panama",
+          "population": "4381.5790",
+          "area": 75417,
+          "continent": "Americas",
+          "subregion": "Central America"
+        },
+        {
+          "country": "Papua New Guinea",
+          "population": "9119.0100",
+          "area": 462840,
+          "continent": "Oceania",
+          "subregion": "Melanesia"
+        },
+        {
+          "country": "Paraguay",
+          "population": "7219.6380",
+          "area": 406752,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Peru",
+          "population": "33359.4180",
+          "area": 1285216,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Philippines",
+          "population": "111046.9130",
+          "area": 342353,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Poland",
+          "population": "37797.0050",
+          "area": 312679,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Portugal",
+          "population": "10167.9250",
+          "area": 92090,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Puerto Rico",
+          "population": "2828.2550",
+          "area": 8870,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Qatar",
+          "population": "2930.5280",
+          "area": 11586,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Republic of the Congo",
+          "population": "5657.0130",
+          "area": 342000,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Reunion",
+          "population": "901.6860",
+          "area": 2511,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Romania",
+          "population": "19127.7740",
+          "area": 238391,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Russia",
+          "population": "145912.0250",
+          "area": 17098242,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Rwanda",
+          "population": "13276.5130",
+          "area": 26338,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Saint Barthelemy",
+          "population": "9.9070",
+          "area": 21,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Saint Kitts and Nevis",
+          "population": "53.5440",
+          "area": 261,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Saint Lucia",
+          "population": "184.4000",
+          "area": 616,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Saint Martin",
+          "population": "39.2340",
+          "area": 53,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Saint Pierre and Miquelon",
+          "population": "5.7660",
+          "area": 242,
+          "continent": "Americas",
+          "subregion": "Northern America"
+        },
+        {
+          "country": "Saint Vincent and the Grenadines",
+          "population": "111.2630",
+          "area": 389,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Samoa",
+          "population": "200.1490",
+          "area": 2842,
+          "continent": "Oceania",
+          "subregion": "Polynesia"
+        },
+        {
+          "country": "San Marino",
+          "population": "34.0170",
+          "area": 61,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Sao Tome and Principe",
+          "population": "223.3680",
+          "area": 964,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Saudi Arabia",
+          "population": "35340.6830",
+          "area": 2149690,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Senegal",
+          "population": "17196.3010",
+          "area": 196722,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Serbia",
+          "population": "8697.5500",
+          "area": 88361,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Seychelles",
+          "population": "98.9080",
+          "area": 452,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Sierra Leone",
+          "population": "8141.3430",
+          "area": 71740,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Singapore",
+          "population": "5896.6860",
+          "area": 710,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Sint Maarten",
+          "population": "43.4120",
+          "area": 34,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Slovakia",
+          "population": "5460.7210",
+          "area": 49037,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "Slovenia",
+          "population": "2078.7240",
+          "area": 20273,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Solomon Islands",
+          "population": "703.9960",
+          "area": 28896,
+          "continent": "Oceania",
+          "subregion": "Melanesia"
+        },
+        {
+          "country": "Somalia",
+          "population": "16359.5040",
+          "area": 637657,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "South Africa",
+          "population": "60041.9940",
+          "area": 1221037,
+          "continent": "Africa",
+          "subregion": "Southern Africa"
+        },
+        {
+          "country": "South Korea",
+          "population": "51305.1860",
+          "area": 100210,
+          "continent": "Asia",
+          "subregion": "Eastern Asia"
+        },
+        {
+          "country": "South Sudan",
+          "population": "11381.3780",
+          "area": 619745,
+          "continent": "Africa",
+          "subregion": "Middle Africa"
+        },
+        {
+          "country": "Spain",
+          "population": "46745.2160",
+          "area": 505992,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Sri Lanka",
+          "population": "21497.3100",
+          "area": 65610,
+          "continent": "Asia",
+          "subregion": "Southern Asia"
+        },
+        {
+          "country": "Sudan",
+          "population": "44909.3530",
+          "area": 1886068,
+          "continent": "Africa",
+          "subregion": "Northern Africa"
+        },
+        {
+          "country": "Suriname",
+          "population": "591.8000",
+          "area": 163820,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Sweden",
+          "population": "10160.1690",
+          "area": 450295,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "Switzerland",
+          "population": "8715.4940",
+          "area": 41284,
+          "continent": "Europe",
+          "subregion": "Western Europe"
+        },
+        {
+          "country": "Syria",
+          "population": "18275.7020",
+          "area": 185180,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Taiwan",
+          "population": "23855.0100",
+          "area": 36193,
+          "continent": "Asia",
+          "subregion": "Eastern Asia"
+        },
+        {
+          "country": "Tajikistan",
+          "population": "9749.6270",
+          "area": 143100,
+          "continent": "Asia",
+          "subregion": "Central Asia"
+        },
+        {
+          "country": "Tanzania",
+          "population": "61498.4370",
+          "area": 945087,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Thailand",
+          "population": "69950.8500",
+          "area": 513120,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Timor-Leste",
+          "population": "1343.8730",
+          "area": 14874,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Togo",
+          "population": "8478.2500",
+          "area": 56785,
+          "continent": "Africa",
+          "subregion": "Western Africa"
+        },
+        {
+          "country": "Tokelau",
+          "population": "1.3730",
+          "area": 12,
+          "continent": "Oceania",
+          "subregion": "Polynesia"
+        },
+        {
+          "country": "Tonga",
+          "population": "106.7600",
+          "area": 747,
+          "continent": "Oceania",
+          "subregion": "Polynesia"
+        },
+        {
+          "country": "Trinidad and Tobago",
+          "population": "1403.3750",
+          "area": 5130,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Tunisia",
+          "population": "11935.7660",
+          "area": 163610,
+          "continent": "Africa",
+          "subregion": "Northern Africa"
+        },
+        {
+          "country": "Turkey",
+          "population": "85042.7380",
+          "area": 783562,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Turkmenistan",
+          "population": "6117.9240",
+          "area": 488100,
+          "continent": "Asia",
+          "subregion": "Central Asia"
+        },
+        {
+          "country": "Turks and Caicos Islands",
+          "population": "39.2310",
+          "area": 948,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Tuvalu",
+          "population": "11.9310",
+          "area": 26,
+          "continent": "Oceania",
+          "subregion": "Polynesia"
+        },
+        {
+          "country": "Uganda",
+          "population": "47123.5310",
+          "area": 241550,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Ukraine",
+          "population": "43466.8190",
+          "area": 603500,
+          "continent": "Europe",
+          "subregion": "Eastern Europe"
+        },
+        {
+          "country": "United Arab Emirates",
+          "population": "9991.0890",
+          "area": 83600,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "United Kingdom",
+          "population": "68207.1160",
+          "area": 242900,
+          "continent": "Europe",
+          "subregion": "Northern Europe"
+        },
+        {
+          "country": "United States",
+          "population": "332915.0730",
+          "area": 9372610,
+          "continent": "Americas",
+          "subregion": "Northern America"
+        },
+        {
+          "country": "United States Virgin Islands",
+          "population": "104.2260",
+          "area": 347,
+          "continent": "Americas",
+          "subregion": "Caribbean"
+        },
+        {
+          "country": "Uruguay",
+          "population": "3485.1510",
+          "area": 181034,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Uzbekistan",
+          "population": "33935.7630",
+          "area": 447400,
+          "continent": "Asia",
+          "subregion": "Central Asia"
+        },
+        {
+          "country": "Vanuatu",
+          "population": "314.4640",
+          "area": 12189,
+          "continent": "Oceania",
+          "subregion": "Melanesia"
+        },
+        {
+          "country": "Vatican City",
+          "population": "0.8000",
+          "area": 1,
+          "continent": "Europe",
+          "subregion": "Southern Europe"
+        },
+        {
+          "country": "Venezuela",
+          "population": "28704.9540",
+          "area": 916445,
+          "continent": "Americas",
+          "subregion": "South America"
+        },
+        {
+          "country": "Vietnam",
+          "population": "98168.8330",
+          "area": 331212,
+          "continent": "Asia",
+          "subregion": "South-Eastern Asia"
+        },
+        {
+          "country": "Wallis and Futuna",
+          "population": "11.0940",
+          "area": 142,
+          "continent": "Oceania",
+          "subregion": "Polynesia"
+        },
+        {
+          "country": "Western Sahara",
+          "population": "611.8750",
+          "area": 266000,
+          "continent": "Africa",
+          "subregion": "Northern Africa"
+        },
+        {
+          "country": "Yemen",
+          "population": "30490.6400",
+          "area": 527968,
+          "continent": "Asia",
+          "subregion": "Western Asia"
+        },
+        {
+          "country": "Zambia",
+          "population": "18920.6510",
+          "area": 752612,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        },
+        {
+          "country": "Zimbabwe",
+          "population": "15092.1710",
+          "area": 390757,
+          "continent": "Africa",
+          "subregion": "Eastern Africa"
+        }
+      ]

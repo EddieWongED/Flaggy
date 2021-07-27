@@ -15,5 +15,7 @@
     "filter": "篩選",
     "alphabetical": "字母",
     "noOfLetters": "字母數量",
-    "noOfLanguages": "語言數量"
+    "noOfLanguages": "語言數量",
+    "population": "人口",
+    "area": "土地面積"
 }

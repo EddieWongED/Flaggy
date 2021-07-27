@@ -8,6 +8,9 @@ import filterImg from "../icons/filterIcon.svg"
 import sortImg from "../icons/sortIcon.svg"
 import searchImg from "../icons/searchIcon.svg"
 import favouriteImg from "../icons/favouriteIcon.svg"
+import sortUpImg from "../icons/sortUpIcon.svg"
+import sortDownImg from "../icons/sortDownIcon.svg"
+
 import {ThemeContext} from '../Theme';
 import { withTranslation, useTranslation } from 'react-i18next'
 
@@ -29,7 +32,7 @@ const SortOptions = (props) => {
 }
 
 const Sort = (props) => {
-    // const context = React.useContext(ThemeContext);
+    const context = React.useContext(ThemeContext);
     // const {t} = useTranslation();
     const [dragId, setDragId] = React.useState();
 
@@ -56,18 +59,41 @@ const Sort = (props) => {
     
         props.handleSortChange(newOptionState);
     }
+    
+    function handleOrdering(e) {
+        e.preventDefault();
+        console.log(e.currentTarget.id);
+        let ordering = e.currentTarget.id.substring(0, e.currentTarget.id.indexOf('-'));
+        let target = e.currentTarget.id.substring(e.currentTarget.id.indexOf('-') + 1);
+        const newOptionState = props.sortValue.map((option) => {
+            if (option.id === target) {
+              option.ascending = ordering === "ascending";
+            }
+            return option;
+          });
 
+          props.handleSortChange(newOptionState);
+    }
+    
     return (
         <div id="sort-div" ref={props.sortDiv} className="sort-div" tabOpened={props.tabOpened}>
             {props.sortValue
                     .sort((a, b) => a.order - b.order)
                     .map((sortOption, index) => {
                         return (
-                        <div className="sort-option-numbering-div">
-                            <div className="sort-numbering no-select">
-                                {`${index + 1}.`}
+                        <div className="sort-option">
+                            <div className="sort-ordering-div">
+                                <div className="sort-ordering-container-div no-select" theme={context}>
+                                <img src={sortDownImg} alt="descending" id={`descending-${sortOption.id}`} className="sort-descending-img" ascending={sortOption.ascending.toString()} onClick={handleOrdering} theme={context}/>
+                                <img src={sortUpImg} alt="ascending" id={`ascending-${sortOption.id}`}  className="sort-ascending-img" ascending={sortOption.ascending.toString()} onClick={handleOrdering} theme={context}/>
+                                </div>
                             </div>
-                            <SortOptions key={sortOption.id} optionID={sortOption.id} handleDrag={handleDrag} handleDrop={handleDrop}/>
+                            <div className="sort-option-numbering-div">
+                                <div className="sort-numbering no-select">
+                                    {`${index + 1}.`}
+                                </div>
+                                <SortOptions key={sortOption.id} optionID={sortOption.id} handleDrag={handleDrag} handleDrop={handleDrop}/>
+                            </div>
                         </div>
                     );})}
         </div>

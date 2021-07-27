@@ -15,32 +15,49 @@ class CountriesSection extends React.Component {
         this.state = {searchValue: '', sortValue: [
             {
                 id: "alphabetical",
+                ascending: true,
                 order: 1
             },
             {
                 id: "code",
+                ascending: true,
                 order: 2
             },
             {
                 id: "continent",
+                ascending: true,
                 order: 3
             },
             {
                 id: "noOfLanguages",
+                ascending: true,
                 order: 4
             },
             {
                 id: "capital",
+                ascending: true,
                 order: 5
             },
             {
                 id: "currency",
+                ascending: true,
                 order: 6
             },
             {
                 id: "noOfLetters",
+                ascending: true,
                 order: 7
-            },   
+            },
+            {
+                id: "population",
+                ascending: true,
+                order: 8
+            },
+            {
+                id: "area",
+                ascending: true,
+                order: 9
+            },     
         ]};  
     }
 

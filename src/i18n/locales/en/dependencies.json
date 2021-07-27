@@ -1,0 +1,427 @@
+{
+    "dependencies": [
+        {
+            "name": "Akrotiri and Dhekelia",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/150px-Flag_of_the_United_Kingdom.svg.png",
+            "language": ["English"],
+            "continent": "Europe",
+            "capital": "Pago Pago",
+            "currency": "Euro (EUR)",
+            "code": "QZXD"
+        },
+        {
+            "name": "Åland Islands",
+            "flag": "https://www.fotw.info/images/a/ax.gif",
+            "language": ["Swedish"],
+            "continent": "Europe",
+            "capital": "Mariehamn",
+            "currency": "Euro (EUR)",
+            "code": "AX"
+        },
+        {
+            "name": "American Samoa",
+            "flag": "https://www.fotw.info/images/a/as.gif",
+            "language": ["English", "Samoan"],
+            "continent": "Oceania",
+            "capital": "Pago Pago",
+            "currency": "United States dollar (USD)",
+            "code": "AS"
+        },
+        {
+            "name": "Anguilla",
+            "flag": "https://www.fotw.info/images/a/ai.gif",
+            "language": ["English"],
+            "continent": "Europe",
+            "capital": "The Valley",
+            "currency": "Eastern Caribbean dollar (XCD)",
+            "code": "AI"
+        },
+        {
+            "name": "Aruba",
+            "flag": "https://www.fotw.info/images/a/aw.gif",
+            "language": ["Dutch", "Papiamento"],
+            "continent": "South America",
+            "capital": "Oranjestad",
+            "currency": "Aruban florin (AWG)",
+            "code": "AW"
+        },
+        {
+            "name": "Bermuda",
+            "flag": "https://www.fotw.info/images/b/bm.gif",
+            "language": ["English"],
+            "continent": "North America",
+            "capital": "Hamilton",
+            "currency": "Bermudian dollar (BMD)",
+            "code": "BM"
+        },
+        {
+            "name": "Bouvet Island",
+            "flag": "https://www.fotw.info/images/b/bv.gif",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "BV"
+        },
+        {
+            "name": "British Indian Ocean Territory",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "IO"
+        },
+        {
+            "name": "Virgin Islands, British",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "VG"
+        },
+        {
+            "name": "Cayman Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "KY"
+        },
+        {
+            "name": "Christmas Island",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "CX"
+        },
+        {
+            "name": "Cocos (Keeling) Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "CC"
+        },
+        {
+            "name": "Coral Sea Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "CR"
+        },
+        {
+            "name": "Falkland Islands (Malvinas)",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "FK"
+        },
+        {
+            "name": "Faroe Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "FO"
+        },
+        {
+            "name": "French Guiana",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "GF"
+        },
+        {
+            "name": "French Polynesia",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "PF"
+        },
+        {
+            "name": "French Southern Territories",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "TF"
+        },
+        {
+            "name": "Gibraltar",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "GI"
+        },
+        {
+            "name": "Greenland",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "GL"
+        },
+        {
+            "name": "Guadeloupe",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "GP"
+        },
+        {
+            "name": "Guam",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "GU"
+        },
+        {
+            "name": "Guernsey",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "GG"
+        },
+        {
+            "name": "Heard Island and Mcdonald Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "HM"
+        },
+        {
+            "name": "Hong Kong",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "HK"
+        },
+        {
+            "name": "Isle of Man",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "IM"
+        },
+        {
+            "name": "Jersey",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "JE"
+        },
+        {
+            "name": "Macau",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "MO"
+        },
+        {
+            "name": "Martinique",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "MQ"
+        },
+        {
+            "name": "Mayotte",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "YT"
+        },
+        {
+            "name": "Montserrat",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "MS"
+        },
+        {
+            "name": "Netherlands Antilles",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "AN"
+        },
+        {
+            "name": "New Caledonia",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "NC"
+        },
+        {
+            "name": "Norfolk Island",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "NF"
+        },
+        {
+            "name": "Northern Mariana Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "MP"
+        },
+        {
+            "name": "Pitcairn Island",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "PN"
+        },
+        {
+            "name": "Puerto Rico",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "PR"
+        },
+        {
+            "name": "Reunion",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "RE"
+        },
+        {
+            "name": "Saint Helena",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "SH"
+        },
+        {
+            "name": "Saint Pierre and Miquelon",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "PM"
+        },
+        {
+            "name": "South Georgia and the South Sandwich Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "GS"
+        },
+        {
+            "name": "Svalbard and Jan Mayen",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "SJ"
+        },
+        {
+            "name": "Tokelau",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "TK"
+        },
+        {
+            "name": "Turks and Caicos Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "TC"
+        },
+        {
+            "name": "United States Minor Outlying Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "UM"
+        },
+        {
+            "name": "United States Virgin Islands",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "VI"
+        },
+        {
+            "name": "Wallis and Futuna",
+            "flag": "",
+            "language": [""],
+            "continent": "",
+            "capital": "",
+            "currency": "",
+            "code": "WF"
+        },
+    ]
+}

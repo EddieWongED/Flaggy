@@ -15,5 +15,7 @@
     "filter": "Filter",
     "alphabetical": "Alphabetical",
     "noOfLetters": "No. of Letters",
-    "noOfLanguages": "No. of Languages"
+    "noOfLanguages": "No. of Languages",
+    "population": "Population",
+    "area": "Area"
 }

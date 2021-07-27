@@ -28,7 +28,9 @@
   font-size: 23px;
   width: 100%;
   flex-basis: calc(20% - 10px);
-  margin: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .sort-numbering {
@@ -52,4 +54,80 @@
 
 .sort-option-img[theme="dark"] {
   content: url("https://img.icons8.com/windows/32/ffffff/move-grabber.png");
+}
+
+.sort-ordering-div {
+  position: relative;
+  height: 25px;
+}
+
+.sort-option-div {
+  position: relative;
+}
+
+.sort-ordering-container-div {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  right: 10px;
+  top: -0px;
+  width: 55px;
+  border-radius: 5px;
+}
+
+.sort-ordering-container-div[theme="light"] {
+  border-top: 1px solid rgba(242, 242, 242, 1);
+  border-left: 1px solid rgba(242, 242, 242, 1);
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.sort-ordering-container-div[theme="dark"] {
+  border-right: 1px solid rgba(242, 242, 242, 0.6);
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.sort-ascending-img,
+.sort-descending-img {
+  cursor: pointer;
+}
+
+.sort-ascending-img[ascending="true"][theme="light"] {
+  filter: invert(43%) sepia(72%) saturate(2066%) hue-rotate(201deg)
+    brightness(102%) contrast(101%);
+}
+
+.sort-ascending-img[ascending="false"][theme="light"] {
+  filter: invert(91%) sepia(0%) saturate(93%) hue-rotate(167deg) brightness(97%)
+    contrast(86%);
+}
+
+.sort-descending-img[ascending="false"][theme="light"] {
+  filter: invert(43%) sepia(72%) saturate(2066%) hue-rotate(201deg)
+    brightness(102%) contrast(101%);
+}
+
+.sort-descending-img[ascending="true"][theme="light"] {
+  filter: invert(91%) sepia(0%) saturate(93%) hue-rotate(167deg) brightness(97%)
+    contrast(86%);
+}
+
+.sort-ascending-img[ascending="true"][theme="dark"] {
+  filter: invert(43%) sepia(72%) saturate(2066%) hue-rotate(201deg)
+    brightness(102%) contrast(101%);
+}
+
+.sort-ascending-img[ascending="false"][theme="dark"] {
+  filter: invert(95%) sepia(8%) saturate(16%) hue-rotate(314deg) brightness(95%)
+    contrast(81%);
+}
+
+.sort-descending-img[ascending="false"][theme="dark"] {
+  filter: invert(43%) sepia(72%) saturate(2066%) hue-rotate(201deg)
+    brightness(102%) contrast(101%);
+}
+
+.sort-descending-img[ascending="true"][theme="dark"] {
+  filter: invert(95%) sepia(8%) saturate(16%) hue-rotate(314deg) brightness(95%)
+    contrast(81%);
 }

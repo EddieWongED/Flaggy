@@ -49,7 +49,7 @@ const CountryName = (props) => {
 }
 
 const CountryMetadata = (props) => {
-  const {code, continent, language, capital, currency} = props.country;
+  const {code, continent, language, capital, currency, population, area} = props.country;
   const context = React.useContext(ThemeContext);
   const {t} = useTranslation()
 
@@ -82,6 +82,14 @@ const CountryMetadata = (props) => {
               <td className="no-select">{t("currency")}</td>
               <td>{currency}</td>
           </tr>
+          <tr>
+              <td className="no-select">{t("population")}</td>
+              <td>{population.toLocaleString()}</td>
+          </tr>
+          <tr>
+              <td className="no-select">{t("area")} (km²)</td>
+              <td>{area.toLocaleString()}</td>
+          </tr>
       </tbody>
     </table>
   )
@@ -101,14 +109,16 @@ const  JSXCountries = (countries) => {
 class Countries extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {countries: this.props.t("countries:countries", {returnObjects: true})};
+    this.state = {countries: this.props.t("countries:memberOfUNCountries", {returnObjects: true})};
   }
 
   componentWillReceiveProps(prevProps, prevState) {
 
-    let countries = this.props.t("countries:countries", {returnObjects: true});
+    let countries = this.props.t("countries:memberOfUNCountries", {returnObjects: true});
     let tempCountries = [];
     
+
+
     countries.forEach((country) => {
         if (country.name.toLowerCase().includes(prevProps.searchValue.toLowerCase()) || prevProps.searchValue === '') {
             tempCountries.push(country);
@@ -117,19 +127,38 @@ class Countries extends React.Component {
 
     console.log(prevProps.sortValue);
     
-    let sortDict = {
+    let ascendingDict = {
       "alphabetical": (countryA, countryB) => countryA.name.localeCompare(countryB.name),
       "code": (countryA, countryB) => countryA.code.localeCompare(countryB.code),
       "continent": (countryA, countryB) => countryA.continent.localeCompare(countryB.continent),
       "noOfLanguages": (countryA, countryB) => countryB.language.length - countryA.language.length,
       "capital": (countryA, countryB) => countryA.capital.localeCompare(countryB.capital),
       "currency": (countryA, countryB) => countryA.currency.localeCompare(countryB.currency),
-      "noOfLetters": (countryA, countryB) => countryB.name.length - countryA.name.length
+      "noOfLetters": (countryA, countryB) => countryB.name.length - countryA.name.length,
+      "population": (countryA, countryB) => countryB.population - countryA.population,
+      "area": (countryA, countryB) => countryB.area - countryA.area
     }   
-    
-    
+
+    let descendingDict = {
+      "alphabetical": (countryA, countryB) => countryB.name.localeCompare(countryA.name),
+      "code": (countryA, countryB) => countryB.code.localeCompare(countryA.code),
+      "continent": (countryA, countryB) => countryB.continent.localeCompare(countryA.continent),
+      "noOfLanguages": (countryA, countryB) => countryA.language.length - countryB.language.length,
+      "capital": (countryA, countryB) => countryB.capital.localeCompare(countryA.capital),
+      "currency": (countryA, countryB) => countryB.currency.localeCompare(countryA.currency),
+      "noOfLetters": (countryA, countryB) => countryA.name.length - countryB.name.length,
+      "population": (countryA, countryB) => countryA.population - countryB.population,
+      "area": (countryA, countryB) => countryA.area - countryB.area
+    }  
+
+    let sortDict = {};
+
+    prevProps.sortValue.forEach((option) => {
+      sortDict[option.id] = option.ascending ? ascendingDict[option.id] : descendingDict[option.id];
+    })
+
     tempCountries.sort((countryA, countryB) => {
-      return sortDict[prevProps.sortValue[0].id](countryA, countryB) || sortDict[prevProps.sortValue[1].id](countryA, countryB) || sortDict[prevProps.sortValue[2].id](countryA, countryB) || sortDict[prevProps.sortValue[3].id](countryA, countryB) || sortDict[prevProps.sortValue[4].id](countryA, countryB) || sortDict[prevProps.sortValue[5].id](countryA, countryB)
+      return sortDict[prevProps.sortValue[0].id](countryA, countryB) || sortDict[prevProps.sortValue[1].id](countryA, countryB) || sortDict[prevProps.sortValue[2].id](countryA, countryB) || sortDict[prevProps.sortValue[3].id](countryA, countryB) || sortDict[prevProps.sortValue[4].id](countryA, countryB) || sortDict[prevProps.sortValue[5].id](countryA, countryB) || sortDict[prevProps.sortValue[6].id](countryA, countryB) || sortDict[prevProps.sortValue[7].id](countryA, countryB)
     });
 
 
