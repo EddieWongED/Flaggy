@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, {useState, Suspense} from 'react'
 import ReactDom from 'react-dom'
 import loadable from '@loadable/component'

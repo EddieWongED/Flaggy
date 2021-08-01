@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import '../index.css'
 import "../style/miscellaneous.css"
@@ -116,17 +117,37 @@ class Countries extends React.Component {
 
     let countries = this.props.t("countries:memberOfUNCountries", {returnObjects: true});
     let tempCountries = [];
-    
 
-
+    //Searching
     countries.forEach((country) => {
         if (country.name.toLowerCase().includes(prevProps.searchValue.toLowerCase()) || prevProps.searchValue === '') {
             tempCountries.push(country);
         }
     })
 
-    console.log(prevProps.sortValue);
+    //Filtering
     
+    Object.keys(prevProps.filterType).forEach((key) => {
+      
+      tempCountries = tempCountries.map((country) => {
+          if (Array.isArray(country[prevProps.filterType[key]]))
+          {
+            for (let i = 0; i < country[prevProps.filterType[key]].length; i++) {
+              if (country[prevProps.filterType[key]][i] === prevProps.filterValue[key]) {
+                return country;
+              };
+            };
+          } else if (country[prevProps.filterType[key]] === prevProps.filterValue[key]) {
+            return country;
+          } 
+          
+          return null;
+      });
+
+      tempCountries = tempCountries.filter((country) => country !== null);
+    });
+
+    //Sorting
     let ascendingDict = {
       "alphabetical": (countryA, countryB) => countryA.name.localeCompare(countryB.name),
       "code": (countryA, countryB) => countryA.code.localeCompare(countryB.code),

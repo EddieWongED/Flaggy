@@ -17,5 +17,6 @@
     "noOfLetters": "No. of Letters",
     "noOfLanguages": "No. of Languages",
     "population": "Population",
-    "area": "Area"
+    "area": "Area",
+    "type": "Type"
 }

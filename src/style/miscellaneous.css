@@ -13,6 +13,33 @@
 }
 
 .card {
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(242, 242, 242, 1);
+  border-left: 1px solid rgba(242, 242, 242, 1);
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(242, 242, 242, 1);
+  border-left: 1px solid rgba(242, 242, 242, 1);
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.card[theme="light"] {
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(242, 242, 242, 1);
+  border-left: 1px solid rgba(242, 242, 242, 1);
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  transition: 0.3s;
+}
+
+.card[theme="light"]:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
   border-top: 1px solid rgba(242, 242, 242, 1);
   border-left: 1px solid rgba(242, 242, 242, 1);
   border-right: 1px solid rgba(128, 128, 128, 0.5);
@@ -20,6 +47,16 @@
 }
 
 .card[theme="dark"] {
+  box-shadow: 0 3px 7px 0 rgb(255, 255, 255, 0.8);
+  border-right: 1px solid rgba(242, 242, 242, 0.6);
+  border-bottom: 1px solid rgba(242, 242, 242, 0.6);
+  border-left: 1px solid rgba(128, 128, 128, 0.5);
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
+  transition: 0.3s;
+}
+
+.card[theme="dark"]:hover {
+  box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.8);
   border-right: 1px solid rgba(242, 242, 242, 0.6);
   border-bottom: 1px solid rgba(242, 242, 242, 0.6);
   border-left: 1px solid rgba(128, 128, 128, 0.5);

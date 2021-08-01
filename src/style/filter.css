@@ -1,0 +1,105 @@
+.filter-option-div,
+.filter-add-img-div {
+  position: relative;
+  display: flex;
+  flex-basis: calc(20% - 10px);
+  justify-content: center;
+  padding: 20px;
+  margin: 5px;
+  width: 225px;
+}
+
+.filter-type-dropdown-div,
+.filter-value-dropdown-div {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.filter-type-dropdown-div[theme="light"] {
+  border-right: 1px solid var(--light-mode-white-quaternary);
+}
+
+.filter-type-dropdown-div[theme="dark"] {
+  border-right: 2px solid var(--neon-blue);
+}
+
+.filter-value-dropdown-content-div,
+.filter-type-dropdown-content-div {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  min-width: 200px;
+  max-height: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow-y: scroll;
+}
+
+.filter-value-dropdown-content-div[theme="light"],
+.filter-type-dropdown-content-div[theme="light"] {
+  background-color: var(--light-mode-white-primary);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.filter-value-dropdown-content-div[theme="dark"],
+.filter-type-dropdown-content-div[theme="dark"] {
+  background-color: var(--dark-mode-dark-primary);
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.8);
+}
+
+.filter-type-dropdown-option-btn,
+.filter-value-dropdown-option-btn {
+  border: none;
+  min-width: 200px;
+  padding: 12px 16px;
+  height: 50px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.filter-type-dropdown-option-btn[theme="light"],
+.filter-value-dropdown-option-btn[theme="light"] {
+  background-color: var(--light-mode-white-primary);
+  color: var(--light-mode-dark-font);
+}
+
+.filter-type-dropdown-option-btn[theme="light"]:hover,
+.filter-value-dropdown-option-btn[theme="light"]:hover {
+  background-color: var(--light-mode-white-secondary);
+}
+
+.filter-type-dropdown-option-btn[theme="dark"],
+.filter-value-dropdown-option-btn[theme="dark"] {
+  background-color: var(--dark-mode-dark-primary);
+  color: var(--dark-mode-white-font);
+}
+
+.filter-type-dropdown-option-btn[theme="dark"]:hover,
+.filter-value-dropdown-option-btn[theme="dark"]:hover {
+  background-color: var(--neon-blue);
+}
+
+.filter-type-dropdown-option-btn,
+.filter-value-dropdown-option-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-add-img {
+  cursor: pointer;
+}
+
+.filter-option-cross-img-div {
+  position: absolute;
+  right: 2px;
+  top: 3px;
+  cursor: pointer;
+}

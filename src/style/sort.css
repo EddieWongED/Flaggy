@@ -8,20 +8,6 @@
   height: 40px;
 }
 
-.sort-option-div[theme="light"] {
-  border-top: 1px solid rgba(242, 242, 242, 1);
-  border-left: 1px solid rgba(242, 242, 242, 1);
-  border-right: 1px solid rgba(128, 128, 128, 0.5);
-  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
-}
-
-.sort-option-div[theme="dark"] {
-  border-right: 1px solid rgba(242, 242, 242, 0.6);
-  border-bottom: 1px solid rgba(242, 242, 242, 0.6);
-  border-left: 1px solid rgba(128, 128, 128, 0.5);
-  border-top: 1px solid rgba(128, 128, 128, 0.5);
-}
-
 .sort-option-numbering-div {
   display: flex;
   flex-direction: row;

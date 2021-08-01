@@ -1,6 +1,6 @@
+/* eslint-disable */
 import React from 'react';
 import {ThemeContext} from '../Theme';
-import loadable from '@loadable/component'
 import { withTranslation } from 'react-i18next'
 import Countries from './Countries.js';
 import Tab from './Tab.js';
@@ -12,7 +12,9 @@ class CountriesSection extends React.Component {
         super(props);
         this.handleSearchChange = this.handleSearchChange.bind(this);
         this.handleSortChange = this.handleSortChange.bind(this);
-        this.state = {searchValue: '', sortValue: [
+        this.handleFilterTypeChange = this.handleFilterTypeChange.bind(this);
+        this.handleFilterValueChange = this.handleFilterValueChange.bind(this);
+        this.state = {filterType: {}, filterValue: {}, searchValue: '', sortValue: [
             {
                 id: "alphabetical",
                 ascending: true,
@@ -58,7 +60,20 @@ class CountriesSection extends React.Component {
                 ascending: true,
                 order: 9
             },     
-        ]};  
+        ]
+    };  
+    }
+
+    handleFilterTypeChange(newFilterType) {
+        this.setState((prevState) => {
+            return {...prevState, filterType: newFilterType};
+        });
+    }
+
+    handleFilterValueChange(newFilterValue) {      
+        this.setState((prevState) => {
+            return {...prevState, filterValue: newFilterValue};
+        });
     }
 
     handleSortChange(newSortValue) {
@@ -75,12 +90,25 @@ class CountriesSection extends React.Component {
 
     render() {
     console.log("rendering CountriesSection");
-
+    
     return (
         <React.Fragment> 
-            <Tab handleSearchChange={this.handleSearchChange} searchValue={this.state.searchValue} handleSortChange={this.handleSortChange} sortValue={this.state.sortValue}/>
-            <div className='countries-list-div'>
-                <Countries searchValue={this.state.searchValue} sortValue={this.state.sortValue}/>
+            <Tab 
+            handleSearchChange={this.handleSearchChange} 
+            searchValue={this.state.searchValue} 
+            handleSortChange={this.handleSortChange} 
+            sortValue={this.state.sortValue} 
+            handleFilterTypeChange={this.handleFilterTypeChange} 
+            filterType={this.state.filterType}
+            handleFilterValueChange={this.handleFilterValueChange}
+            filterValue={this.state.filterValue}/>
+            <div 
+            className='countries-list-div'>
+                <Countries 
+                searchValue={this.state.searchValue} 
+                sortValue={this.state.sortValue}
+                filterType={this.state.filterType}
+                filterValue={this.state.filterValue}/>
             </div>
         </React.Fragment>
     );
