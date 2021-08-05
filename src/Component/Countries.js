@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React from 'react'
+import "../style/countries.css"
 import '../index.css'
 import "../style/miscellaneous.css"
 import {ThemeContext} from '../Theme';
@@ -16,16 +17,26 @@ const Country = (props) => {
   // returning a JSX
   return (
     <React.Fragment>
-      <div className='country-div' onClick={handleClick} theme={context}>
-        <div className="country-content-div">
-          <div className="country-flag-div no-select">
-            <CountryFlag country={props.country}/>
+      <div
+      className='country-div'
+      onClick={handleClick}
+      theme={context}>
+        <div
+        className="country-content-div">
+          <div
+          className="country-flag-div no-select">
+            <CountryFlag
+            country={props.country}/>
           </div>
-          <div className="country-title-div">  
-            <CountryName country={props.country}/>
+          <div
+          className="country-title-div">  
+            <CountryName
+            country={props.country}/>
           </div>
-          <div className="content-table-div">    
-            <CountryMetadata country={props.country}/>
+          <div
+          className="content-table-div">    
+            <CountryMetadata
+            country={props.country}/>
           </div>
         </div>
       </div>
@@ -36,15 +47,19 @@ const Country = (props) => {
 const CountryFlag = (props) => {
   const {flag, name} = props.country;
   return (
-    <img className="country-flag-img" src={flag} alt={name}/>
+    <img
+    className="country-flag-img"
+    src={flag}
+    alt={name}/>
   )
 }
   
 const CountryName = (props) => {
   const {name} = props.country;
   return (
-    <h2 className="country-title-h2">
-    {name}
+    <h2
+    className="country-title-h2">
+      {name}
     </h2>
   )
 }
@@ -55,41 +70,84 @@ const CountryMetadata = (props) => {
   const {t} = useTranslation()
 
   return (
-    <table className="content-table" theme={context}>
+    <table
+    className="content-table"
+    theme={context}>
       <thead>
           <tr>
-              <th className="no-select">{t("metadata")}</th>
-              <th className="no-select">{t("value")}</th>
+              <th
+              className="no-select">
+                {t("metadata")}
+              </th>
+              <th
+              className="no-select">
+                {t("value")}
+              </th>
           </tr>
       </thead>
       <tbody>
           <tr>
-              <td className="no-select">{t("code")}</td>
-              <td>{code}</td>
+              <td
+              className="no-select">
+                {t("code")}
+              </td>
+              <td>
+                {code}
+              </td>
           </tr>
           <tr>
-              <td className="no-select">{t("continent")}</td>
-              <td>{continent}</td>
+              <td
+              className="no-select">
+                {t("continent")}
+              </td>
+              <td>
+                {continent}
+              </td>
           </tr>
           <tr>
-              <td className="no-select">{t("language")}</td>
-              <td>{language.join(", ")}</td>
+              <td
+              className="no-select">
+                {t("language")}
+              </td>
+              <td>
+                {language.join(", ")}
+              </td>
           </tr>
           <tr>
-              <td className="no-select">{t("capital")}</td>
-              <td>{capital}</td>
+              <td
+              className="no-select">
+                {t("capital")}
+              </td>
+              <td>
+                {capital}
+              </td>
           </tr>
           <tr>
-              <td className="no-select">{t("currency")}</td>
-              <td>{currency}</td>
+              <td
+              className="no-select">
+                {t("currency")}
+              </td>
+              <td>
+                {currency}
+              </td>
           </tr>
           <tr>
-              <td className="no-select">{t("population")}</td>
-              <td>{population.toLocaleString()}</td>
+              <td
+              className="no-select">
+                {t("population")}
+              </td>
+              <td>
+                {population.toLocaleString()}
+              </td>
           </tr>
           <tr>
-              <td className="no-select">{t("area")} (km²)</td>
-              <td>{area.toLocaleString()}</td>
+              <td
+              className="no-select">
+                {t("area")} (km²)
+              </td>
+              <td>
+                {area.toLocaleString()}
+              </td>
           </tr>
       </tbody>
     </table>
@@ -104,9 +162,6 @@ const  JSXCountries = (countries) => {
   })
   )
 }
-
-
-
 class Countries extends React.Component {
   constructor(props) {
     super(props);

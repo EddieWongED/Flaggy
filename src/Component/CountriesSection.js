@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React from 'react';
+import "../style/countries.css"
 import {ThemeContext} from '../Theme';
 import { withTranslation } from 'react-i18next'
 import Countries from './Countries.js';

@@ -10,8 +10,11 @@ const Favourite = (props) => {
     console.log("rendering TabContent");
 
     return (
-        <div id="favourite-div" tabOpened={props.tabOpened} ref={props.favouriteDiv} className="favourite-div">
-            
+        <div
+        id="favourite-div"
+        tabOpened={props.tabOpened}
+        ref={props.favouriteDiv}
+        className="favourite-div">
         </div>
     )
 }

@@ -15,11 +15,27 @@ const SortOptions = (props) => {
     const {optionID, handleDrag, handleDrop} = props;
 
     return (
-        <div id={optionID} theme={context} className="sort-option-div card" draggable={true} onDragOver={(ev) => ev.preventDefault()} onDragStart={handleDrag} onDrop={handleDrop}>
-            <div className="sort-option-img-div">
-                <img theme={context} className="sort-option-img" draggable={false} width="26" height="26" alt="drag"/>
+        <div
+        id={optionID}
+        theme={context}
+        className="sort-option-div card"
+        draggable={true}
+        onDragOver={(ev) => ev.preventDefault()}
+        onDragStart={handleDrag}
+        onDrop={handleDrop}>
+            <div
+            className="sort-option-img-div">
+                <img
+                theme={context}
+                className="sort-option-img"
+                draggable={false}
+                width="26"
+                height="26"
+                alt="drag"/>
             </div>
-            <div id={optionID} className="sort-content-div">
+            <div
+            id={optionID}
+            className="sort-content-div">
                 {t(props.optionID)}
             </div>
         </div>
@@ -71,23 +87,52 @@ const Sort = (props) => {
     }
     
     return (
-        <div id="sort-div" ref={props.sortDiv} className="sort-div" tabOpened={props.tabOpened}>
+        <div
+        id="sort-div"
+        ref={props.sortDiv}
+        className="sort-div"
+        tabOpened={props.tabOpened}>
             {props.sortValue
                     .sort((a, b) => a.order - b.order)
                     .map((sortOption, index) => {
                         return (
-                        <div key={sortOption.id} className="sort-option">
-                            <div className="sort-ordering-div">
-                                <div className="sort-ordering-container-div no-select" theme={context}>
-                                <img src={sortDownImg} alt="descending" id={`descending-${sortOption.id}`} className="sort-descending-img" ascending={sortOption.ascending.toString()} onClick={handleOrdering} theme={context}/>
-                                <img src={sortUpImg} alt="ascending" id={`ascending-${sortOption.id}`}  className="sort-ascending-img" ascending={sortOption.ascending.toString()} onClick={handleOrdering} theme={context}/>
+                        <div
+                        key={sortOption.id}
+                        className="sort-option">
+                            <div
+                            className="sort-ordering-div">
+                                <div
+                                className="sort-ordering-container-div no-select"
+                                theme={context}>
+                                    <img
+                                    src={sortDownImg}
+                                    alt="descending"
+                                    id={`descending-${sortOption.id}`} 
+                                    className="sort-descending-img"
+                                    ascending={sortOption.ascending.toString()}
+                                    onClick={handleOrdering}
+                                    theme={context}/>
+                                    <img
+                                    src={sortUpImg}
+                                    alt="ascending"
+                                    id={`ascending-${sortOption.id}`}  
+                                    className="sort-ascending-img"
+                                    ascending={sortOption.ascending.toString()}
+                                    onClick={handleOrdering}
+                                    theme={context}/>
                                 </div>
                             </div>
-                            <div className="sort-option-numbering-div">
-                                <div className="sort-numbering no-select">
+                            <div
+                            className="sort-option-numbering-div">
+                                <div
+                                className="sort-numbering no-select">
                                     {`${index + 1}.`}
                                 </div>
-                                <SortOptions key={sortOption.id} optionID={sortOption.id} handleDrag={handleDrag} handleDrop={handleDrop}/>
+                                <SortOptions
+                                key={sortOption.id}
+                                optionID={sortOption.id}
+                                handleDrag={handleDrag}
+                                handleDrop={handleDrop}/>
                             </div>
                         </div>
                     );})}

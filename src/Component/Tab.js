@@ -57,12 +57,24 @@ class TabOptions extends React.Component {
         const options = ["sort", "filter", "search", "favourite"];
         const optionImgs = {"sort": sortImg, "filter": filterImg, "search": searchImg, "favourite": favouriteImg};
         return (
-        <div className="tab-div no-select" >
-            <ul className="tab-content-table">
+        <div 
+        className="tab-div no-select">
+            <ul
+            className="tab-content-table">
                 {options.map((option) => (
-                    <li key={option} id={option} className={`tab-content-item ${option}-li`} onClick={this.props.handleTabChange} tabOpened={this.props.tabOpened} theme={this.context}>
-                                <img src={optionImgs[option]} className={`tab-${option}-img`} alt={`tab-${option}-img`}/>
-                                <div className="tab-content-item-word">
+                    <li
+                    key={option}
+                    id={option}
+                    className={`tab-content-item ${option}-li`}
+                    onClick={this.props.handleTabChange}
+                    tabOpened={this.props.tabOpened}
+                    theme={this.context}>
+                                <img
+                                src={optionImgs[option]}
+                                className={`tab-${option}-img`}
+                                alt={`tab-${option}-img`}/>
+                                <div
+                                className="tab-content-item-word">
                                     {t(option)}
                                 </div>
                     </li>

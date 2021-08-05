@@ -83,7 +83,6 @@
   display: none;
   height: 0px;
   margin-top: 10px;
-  border: 2px solid blue;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -98,6 +97,7 @@
 .search-div[tabOpened="search"],
 .favourite-div[tabOpened="favourite"] {
   display: block;
+  height: auto;
 }
 
 .filter-div[tabOpened="filter"] {

@@ -11,6 +11,7 @@ import './style/miscellaneous.css'
 import {ThemeContext} from './Theme'
 import CountriesSection from './Component/CountriesSection.js'
 import NavBar from './Component/NavBar.js'
+import TopBar from './Component/TopBar.js'
 
 // const resource = createResource();
 // console.log(resource);
@@ -38,24 +39,30 @@ function App() {
   }
 
   return (
-    <ThemeContext.Provider value={theme}>
-      <div className="page-root-div" theme={theme}>
-        <div className="page-left-div" theme={theme}>
-          <NavBar navBarShown={navBarShown} setNavBarShown={setNavBarShown} handleThemeClick={handleThemeClick}/>
-        </div>
-        <div className="page-right-div" theme={theme}>
-          <div className="top-div">
-            <div className="title-div no-select">
-              <h1>{t('title')}</h1> 
-            </div>
-            <div className="clock-div">
-              <Suspense fallback={<div>Loading...</div>}>
-                <Clock />
-              </Suspense>
-            </div>
+    <ThemeContext.Provider
+    value={theme}>
+      <div 
+      className="page-root-div"
+      theme={theme}>
+        <TopBar
+        navBarShown={navBarShown}
+        setNavBarShown={setNavBarShown}/>
+        <div className="main-content-div">
+          <div
+          className="page-left-div"
+          theme={theme}>
+            <NavBar
+            navBarShown={navBarShown}
+            setNavBarShown={setNavBarShown}
+            handleThemeClick={handleThemeClick}/>
           </div>
-          <div className="bottom-div">
-            <CountriesSection/>
+          <div
+          className="page-right-div"
+          theme={theme}>
+            <div
+            className="bottom-div">
+              <CountriesSection/>
+            </div>
           </div>
         </div>
       </div>

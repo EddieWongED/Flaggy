@@ -1,0 +1,116 @@
+.countries-list-div {
+  margin: 1rem auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* under countries-list-div */
+.country-div {
+  border-radius: 1.5rem;
+  height: 255px;
+  margin: 24px;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 2.5rem;
+  max-width: 45ch;
+  overflow: hidden;
+  transition: transform 500ms ease, height 500ms ease;
+}
+
+.country-div:hover {
+  cursor: pointer;
+  height: 415px;
+  transition: height 500ms ease;
+}
+
+.country-div[theme="dark"] {
+  background: var(--dark-mode-dark-secondary);
+}
+
+.country-div[theme="light"] {
+  background: var(--light-mode-white-secondary);
+}
+
+/* under country-div */
+.country-content-div {
+  text-align: center;
+  transform: translateY(4%);
+  transition: transform 500ms ease;
+}
+
+.country-div:hover .country-content-div {
+  transform: translateY(-51%);
+}
+
+.country-flag-div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+/* under country-content-div */
+.country-flag-img {
+  display: block;
+  width: auto;
+  height: 150px;
+  align-items: center;
+}
+
+.country-title-h2 {
+  position: relative;
+  max-width: 100%;
+}
+
+.country-title-h2::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  background: var(--neon-blue);
+  transform: scaleX(0);
+  transition: transform 500ms ease;
+}
+
+.country-div:hover .country-title-h2::after {
+  transform: scaleX(1);
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px;
+  font-size: 1.55ch;
+  min-width: 300px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px var(--neon-blue);
+}
+
+.content-table thead tr {
+  background-color: var(--neon-blue);
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.content-table[theme="dark"] tbody tr:nth-of-type(even) {
+  background-color: var(--dark-mode-dark-tertiary);
+}
+
+.content-table[theme="light"] tbody tr:nth-of-type(even) {
+  background-color: var(--light-mode-white-tertiary);
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid var(--neon-blue);
+}

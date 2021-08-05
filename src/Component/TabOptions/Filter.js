@@ -28,8 +28,12 @@ const FilterTypeOptions = (props) => {
         <React.Fragment>
             {typeOptions.map((option) => {
                 return (
-                    <button id={option}className="filter-type-dropdown-option-btn" onClick={handleTypeOptionClick} theme={context}>
-                    {t(option)}
+                    <button
+                    id={option}
+                    className="filter-type-dropdown-option-btn"
+                    onClick={handleTypeOptionClick}
+                    theme={context}>
+                        {t(option)}
                     </button>
                 )
             })}
@@ -149,12 +153,20 @@ const FilterOptions = (props) => {
     }
 
     return (
-        <div className="filter-option-div card no-select" theme={context}>
-            <div className="filter-type-dropdown-div" theme={context} onClick={handleTypeClick}>
-                <div className="filter-type-text-div" >
+        <div
+        className="filter-option-div card no-select"
+        theme={context}>
+            <div
+            className="filter-type-dropdown-div"
+            theme={context}
+            onClick={handleTypeClick}>
+                <div
+                className="filter-type-text-div">
                     {filterType[index] === "" ? t("type") : t(filterType[index])}
                 </div>
-                <div ref={typeContent} className="filter-type-dropdown-content-div" 
+                <div
+                ref={typeContent}
+                className="filter-type-dropdown-content-div" 
                 onMouseLeave={handleTypeOptionMouseLeave}
                 theme={context}>
                     <FilterTypeOptions 
@@ -164,11 +176,18 @@ const FilterOptions = (props) => {
                     index={index}/>
                 </div>
             </div>
-            <div className="filter-value-dropdown-div" theme={context} onClick={handleValueClick}>
-                <div className="filter-value-text-div">
+            <div
+            className="filter-value-dropdown-div"
+            theme={context}
+            onClick={handleValueClick}>
+                <div
+                className="filter-value-text-div">
                     {filterValue[index] === "" ? t("filterValue") : t(filterValue[index])}
                 </div>
-                <div ref={valueContent}className="filter-value-dropdown-content-div" onMouseLeave={handleValueOptionMouseLeave}
+                <div
+                ref={valueContent}
+                className="filter-value-dropdown-content-div"
+                onMouseLeave={handleValueOptionMouseLeave}
                 theme={context}>
                     <FilterValueOptions 
                     valueContent={valueContent} 
@@ -178,8 +197,16 @@ const FilterOptions = (props) => {
                     index={index}/>
                 </div>
             </div>
-            <div id={index} className="filter-option-cross-img-div" onClick={handleCancelOptionClick}>
-                <img id={index} className="filter-option-cross-img" src={crossImg} height="18" width="18"/>
+            <div
+            id={index}
+            className="filter-option-cross-img-div"
+            onClick={handleCancelOptionClick}>
+                <img
+                id={index}
+                className="filter-option-cross-img"
+                src={crossImg}
+                height="18"
+                width="18"/>
             </div>
         </div>
     )
@@ -225,8 +252,16 @@ const Filter = (props) => {
                     index={key}/>
                 )
             })}
-            <div className="filter-add-img-div card" theme={context}>
-                <img alt="plus" src={plusImg} height="" width="24" className="filter-add-img" onClick={handleAddFilter}/>
+            <div
+            className="filter-add-img-div card"
+            theme={context}>
+                <img
+                alt="plus"
+                src={plusImg}
+                height=""
+                width="24" 
+                className="filter-add-img"
+                onClick={handleAddFilter}/>
             </div>
         </div>
     )
