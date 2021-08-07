@@ -18,5 +18,6 @@
     "noOfLanguages": "No. of Languages",
     "population": "Population",
     "area": "Area",
-    "type": "Type"
+    "type": "Type",
+    "showFavouriteOnly": "Show Favourite Only"
 }

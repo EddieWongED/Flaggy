@@ -35,11 +35,16 @@ const DropdownOptions = (props) => {
 }
 
 const NavBarOptions = (props) => {
-    const {handleThemeClick, navBarShown} = props;
+    const {handleThemeClick, navBarShown, setNavBarShown} = props;
     const context = React.useContext(ThemeContext);
 
     const {t} = useTranslation();
 
+    const handleLanguageIconClick = () => {
+        setNavBarShown((prevState) => {
+            return !prevState;
+        })
+    }
     return (
     <ul
     className="nav-option-ul"
@@ -73,7 +78,8 @@ const NavBarOptions = (props) => {
         <li
         className="nav-option-li"
         theme={context}
-        navBarShown={navBarShown.toString()}>
+        navBarShown={navBarShown.toString()}
+        onClick={navBarShown ? null : handleThemeClick}>
             <div
             className="nav-option-div">
                 <div
@@ -107,7 +113,8 @@ const NavBarOptions = (props) => {
         <li
         className="nav-option-li"
         theme={context}
-        navBarShown={navBarShown.toString()}>
+        navBarShown={navBarShown.toString()}
+        onClick={navBarShown ? null : handleLanguageIconClick}>
             <div
             className="nav-option-div">
                 <div
@@ -157,6 +164,7 @@ const NavBar = (props) => {
         navBarShown={navBarShown.toString()}>
             <NavBarOptions
             navBarShown={navBarShown}
+            setNavBarShown={setNavBarShown}
             handleThemeClick={props.handleThemeClick}/>
         </div>
     )

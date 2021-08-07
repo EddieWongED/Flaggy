@@ -5,13 +5,44 @@ import '../index.css'
 import "../style/miscellaneous.css"
 import {ThemeContext} from '../Theme';
 import { useTranslation, withTranslation } from 'react-i18next';
+import Delayed from './Delayed';
+import favouriteImg from "../icons/favouriteIcon.svg"
+
+const flags = {};
+
+function importAll(r) {
+    r.keys().forEach((key) => (flags[key] = r(key)));
+}
+
+importAll(require.context("../icons/flag", false, /\.(png|jpe?g|svg)$/));
 
 const Country = (props) => {
   
+  const {country} = props;
+
+  const [favourite, setFavourite] = React.useState(JSON.parse(localStorage.getItem("favourite")).includes(country.code));
+
+  console.log(favourite);
+  
   const context = React.useContext(ThemeContext);
 
-  const handleClick = (e) => {
-    alert("You are clicking: " + props.country.name);
+  const handleFavouriteClick = (e) => {
+    e.stopPropagation();
+
+    setFavourite( (prevState) => {
+      return !prevState;
+    })
+
+    if (JSON.parse(localStorage.getItem("favourite")).includes(country.code)) {
+      const newFavList = JSON.parse(localStorage.getItem("favourite")).filter((e) => {
+        return e !== country.code;
+      });
+      localStorage.setItem("favourite", JSON.stringify(newFavList));
+    } else {
+      const newFavList = JSON.parse(localStorage.getItem("favourite"))
+      newFavList.push(country.code);
+      localStorage.setItem("favourite", JSON.stringify(newFavList));
+    }
   }
   
   // returning a JSX
@@ -19,25 +50,36 @@ const Country = (props) => {
     <React.Fragment>
       <div
       className='country-div'
-      onClick={handleClick}
       theme={context}>
+        <div
+        className="country-favourite-img-div no-select">
+          <img
+          src={favouriteImg}
+          id={country.code}
+          className="country-favourite-img "
+          height="40"
+          width="40"
+          theme={context}
+          favourite={favourite.toString()}
+          onClick={handleFavouriteClick}/>
+        </div>
         <div
         className="country-content-div">
           <div
           className="country-flag-div no-select">
             <CountryFlag
-            country={props.country}/>
+            country={country}/>
           </div>
           <div
           className="country-title-div">  
             <CountryName
-            country={props.country}/>
+            country={country}/>
           </div>
-          <div
+          {/* <div
           className="content-table-div">    
             <CountryMetadata
-            country={props.country}/>
-          </div>
+            country={country}/>
+          </div> */}
         </div>
       </div>
     </React.Fragment>
@@ -45,7 +87,15 @@ const Country = (props) => {
 }
   
 const CountryFlag = (props) => {
-  const {flag, name} = props.country;
+  const {country} = props
+  const {name, code} = country;
+
+  const flagDir = "./" + code.toLowerCase() + ".svg";
+  var flag = null;
+  if (flags[flagDir] !== undefined) {
+    flag = flags[flagDir].default;
+  }
+   
   return (
     <img
     className="country-flag-img"
@@ -155,9 +205,11 @@ const CountryMetadata = (props) => {
 }
 
 const  JSXCountries = (countries) => {
-  return (countries.map((country) => {
+  return (countries.map((country, index) => {
       return (
-        <Country key={country.code} country={country}/>
+        <Delayed waitBeforeShow={10 * index}>
+          <Country key={country.code} country={country}/>
+        </Delayed>
       );
   })
   )
@@ -166,6 +218,9 @@ class Countries extends React.Component {
   constructor(props) {
     super(props);
     this.state = {countries: this.props.t("countries:memberOfUNCountries", {returnObjects: true})};
+  }
+
+  componentDidMount() {
   }
 
   componentWillReceiveProps(prevProps, prevState) {
@@ -201,6 +256,14 @@ class Countries extends React.Component {
 
       tempCountries = tempCountries.filter((country) => country !== null);
     });
+
+    //Favourite Filtering
+
+    const favouriteCountries = JSON.parse(localStorage.getItem("favourite"));
+    if (prevProps.favouriteFilter) {
+      tempCountries = tempCountries.filter((country) => favouriteCountries.includes(country.code));
+    }
+
 
     //Sorting
     let ascendingDict = {
@@ -250,6 +313,7 @@ class Countries extends React.Component {
 
   render() {
     console.log("rendering Countries");
+    
     return (
         <React.Fragment>
           {JSXCountries(this.state.countries)}

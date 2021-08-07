@@ -1287,6 +1287,17 @@
 		"currency": "",
 		"code": "MN"
     },
+	{
+        "name": "Montenegro",
+		"flag": "",
+		"language": [""],
+		"population": 628053,
+		"area": 13812,
+		"continent": "",
+		"capital": "",
+		"currency": "",
+		"code": "ME"
+    },
     {
         "name": "Morocco",
 		"flag": "",
@@ -1662,7 +1673,7 @@
 		"code": "SN"
     },
     {
-        "name": "Serbia and Montenegro",
+        "name": "Serbia",
 		"flag": "",
 		"language": [""],
 		"population": 8697550,
@@ -1670,7 +1681,7 @@
 		"continent": "",
 		"capital": "",
 		"currency": "",
-		"code": "CS"
+		"code": "RS"
     },
     {
         "name": "Seychelles",

@@ -71,9 +71,9 @@ function App() {
 }
 
 function createLocalStorage() {
-  if (localStorage.getItem("displayLang") === null)
+  if (localStorage.getItem("favourite") === null)
   {
-    localStorage.setItem("displayLang", "English");
+    localStorage.setItem("favourite", JSON.stringify([]));
   }
   if (localStorage.getItem("theme") === "null")
   {

@@ -88,7 +88,7 @@ class TabOptions extends React.Component {
 let TabOption = withTranslation()(TabOptions);
 
 const Tab = (props) => {
-    const {handleSearchChange, searchValue, handleSortChange, sortValue, handleFilterTypeChange, filterType, handleFilterValueChange, filterValue} = props;
+    const {handleSearchChange, searchValue, handleSortChange, sortValue, handleFilterTypeChange, filterType, handleFilterValueChange, filterValue, handleFavouriteFilterChange, favouriteFilter} = props;
     const [tabOpened, setTabOpened] = React.useState();
     const context = React.useContext(ThemeContext);
     
@@ -102,9 +102,6 @@ const Tab = (props) => {
             <TabOption 
             handleTabChange={handleTabChange} 
             tabOpened={tabOpened}/>
-            <div 
-            className="horizontal-line"
-            theme={context}/>
             <div 
             className="tab-content-div">
                         <Sort
@@ -123,7 +120,9 @@ const Tab = (props) => {
                         handleSearchChange={handleSearchChange}
                         searchValue={searchValue}/>
                         <Favourite
-                        tabOpened={tabOpened}/>
+                        tabOpened={tabOpened}
+                        handleFavouriteFilterChange={handleFavouriteFilterChange}
+                        favouriteFilter={favouriteFilter}/>
             </div>
             <div
             className="horizontal-line"

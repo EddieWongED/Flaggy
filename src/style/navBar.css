@@ -29,6 +29,9 @@
   padding: 0;
   width: auto;
   overflow: visible;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .nav-option-li {
@@ -97,12 +100,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 60px;
+  height: 55x;
 }
 
 .nav-option-img-div img {
   height: 32px;
   width: 32px;
-  margin: 12px;
   line-height: 50px;
 }
 

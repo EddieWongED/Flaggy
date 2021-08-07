@@ -18,5 +18,6 @@
     "noOfLanguages": "語言數量",
     "population": "人口",
     "area": "土地面積",
-    "type": "類別"
+    "type": "類別",
+    "showFavouriteOnly": "只顯示已喜愛的國家"
 }

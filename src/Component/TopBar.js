@@ -6,7 +6,8 @@ import {ThemeContext} from '../Theme';
 import i18next from 'i18next'
 import { useTranslation } from 'react-i18next'
 import logo from "../icons/logo.svg"
-import menuIcon from "../icons/menu.svg"
+import menuIconDark from "../icons/dark/menu.svg"
+import menuIconLight from "../icons/light/menu.svg"
 
 const TopBar = (props) => {
     const {navBarShown, setNavBarShown} = props;
@@ -26,7 +27,7 @@ const TopBar = (props) => {
                 <img
                 className="top-bar-menu-img" 
                 alt="top-bar-menu-img"
-                src={menuIcon}
+                src={context === "dark" ? menuIconDark : menuIconLight}
                 height="24"
                 width="24"
                 onClick={handleMenuClick}/>

@@ -15,7 +15,8 @@ class CountriesSection extends React.Component {
         this.handleSortChange = this.handleSortChange.bind(this);
         this.handleFilterTypeChange = this.handleFilterTypeChange.bind(this);
         this.handleFilterValueChange = this.handleFilterValueChange.bind(this);
-        this.state = {filterType: {}, filterValue: {}, searchValue: '', sortValue: [
+        this.handleFavouriteFilterChange = this.handleFavouriteFilterChange.bind(this);
+        this.state = {favouriteFilter: false, filterType: {}, filterValue: {}, searchValue: '', sortValue: [
             {
                 id: "alphabetical",
                 ascending: true,
@@ -65,6 +66,12 @@ class CountriesSection extends React.Component {
     };  
     }
 
+    handleFavouriteFilterChange(newFavouriteFilter) {
+        this.setState((prevState) => {
+            return {...prevState, favouriteFilter: newFavouriteFilter};
+        });
+    }
+
     handleFilterTypeChange(newFilterType) {
         this.setState((prevState) => {
             return {...prevState, filterType: newFilterType};
@@ -102,14 +109,17 @@ class CountriesSection extends React.Component {
             handleFilterTypeChange={this.handleFilterTypeChange} 
             filterType={this.state.filterType}
             handleFilterValueChange={this.handleFilterValueChange}
-            filterValue={this.state.filterValue}/>
+            filterValue={this.state.filterValue}
+            handleFavouriteFilterChange={this.handleFavouriteFilterChange}
+            favouriteFilter={this.state.favouriteFilter}/>
             <div 
             className='countries-list-div'>
                 <Countries 
                 searchValue={this.state.searchValue} 
                 sortValue={this.state.sortValue}
                 filterType={this.state.filterType}
-                filterValue={this.state.filterValue}/>
+                filterValue={this.state.filterValue}
+                favouriteFilter={this.state.favouriteFilter}/>
             </div>
         </React.Fragment>
     );
