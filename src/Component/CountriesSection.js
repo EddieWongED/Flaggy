@@ -23,44 +23,49 @@ class CountriesSection extends React.Component {
                 order: 1
             },
             {
-                id: "code",
+                id: "ISO3",
                 ascending: true,
                 order: 2
             },
             {
-                id: "continent",
+                id: "ISO2",
                 ascending: true,
                 order: 3
             },
             {
-                id: "noOfLanguages",
+                id: "continent",
                 ascending: true,
                 order: 4
             },
             {
-                id: "capital",
+                id: "noOfLanguages",
                 ascending: true,
                 order: 5
             },
             {
-                id: "currency",
+                id: "capital",
                 ascending: true,
                 order: 6
             },
             {
-                id: "noOfLetters",
+                id: "currency",
                 ascending: true,
                 order: 7
             },
             {
-                id: "population",
+                id: "noOfLetters",
                 ascending: true,
                 order: 8
             },
             {
-                id: "area",
+                id: "population",
                 ascending: true,
                 order: 9
+            },
+            {
+                id: "area",
+                ascending: true,
+                order: 10
             },     
         ]
     };  

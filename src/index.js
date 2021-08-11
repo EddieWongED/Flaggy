@@ -60,6 +60,7 @@ function App() {
           className="page-right-div"
           theme={theme}>
             <div
+            id="bottom-div"
             className="bottom-div">
               <CountriesSection/>
             </div>

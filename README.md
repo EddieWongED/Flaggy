@@ -7,4 +7,4 @@
 
 ## Favourite a specific country :heart:
 
-![Image of Favourite](/src/screenshots/favourites.png?raw=true)
+![Image of Favourite](https://github.com/EddieWongED/CountriesList/blob/main/src/screenshots/favourite.png?raw=true)

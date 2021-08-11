@@ -4,19 +4,16 @@
   "private": true,
   "dependencies": {
     "@loadable/component": "^5.15.0",
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
     "flag-icon-css": "^3.5.0",
     "i18next": "^20.3.2",
     "i18next-browser-languagedetector": "^6.1.2",
     "i18next-http-backend": "^1.2.6",
+    "leaflet": "^1.7.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.11.1",
-    "react-scripts": "4.0.3",
-    "react-svg": "^14.0.7",
-    "web-vitals": "^1.1.2"
+    "react-leaflet": "^3.2.1",
+    "react-scripts": "4.0.3"
   },
   "homepage": "http://EddieWongED.github.io/CountriesList",
   "scripts": {
@@ -33,18 +30,11 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
   "devDependencies": {
     "gh-pages": "^3.2.1"
   }

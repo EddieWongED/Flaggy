@@ -21,7 +21,7 @@ const TopBar = (props) => {
 
     return (
         <div 
-        className="top-bar-div" theme={context}>
+        className="top-bar-div no-select" theme={context}>
             <div
             className="top-bar-content-div">
                 <img
@@ -30,7 +30,8 @@ const TopBar = (props) => {
                 src={context === "dark" ? menuIconDark : menuIconLight}
                 height="24"
                 width="24"
-                onClick={handleMenuClick}/>
+                onClick={handleMenuClick}
+                draggable={false}/>
                 <div
                 className="top-bar-logo-name-div">
                     <img

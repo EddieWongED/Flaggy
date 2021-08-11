@@ -8,7 +8,7 @@ import 'flag-icon-css/css/flag-icon.min.css'
 import {ThemeContext} from '../Theme';
 import i18next from 'i18next'
 import { useTranslation } from 'react-i18next'
-import logo from "../icons/logo.svg"
+import Delayed from "./Delayed.js"
 
 let languages = require("../i18n/languages.json")
 

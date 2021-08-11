@@ -72,7 +72,8 @@ class TabOptions extends React.Component {
                                 <img
                                 src={optionImgs[option]}
                                 className={`tab-${option}-img`}
-                                alt={`tab-${option}-img`}/>
+                                alt={`tab-${option}-img`}
+                                draggable={false}/>
                                 <div
                                 className="tab-content-item-word">
                                     {t(option)}
