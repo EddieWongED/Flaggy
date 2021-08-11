@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/CountriesList/static/css/main.7510bc32.chunk.css",
-    "main.js": "/CountriesList/static/js/main.ebda1385.chunk.js",
-    "main.js.map": "/CountriesList/static/js/main.ebda1385.chunk.js.map",
-    "runtime-main.js": "/CountriesList/static/js/runtime-main.10ac2a1c.js",
-    "runtime-main.js.map": "/CountriesList/static/js/runtime-main.10ac2a1c.js.map",
-    "static/css/2.de62a3fb.chunk.css": "/CountriesList/static/css/2.de62a3fb.chunk.css",
-    "static/js/2.95ae4d31.chunk.js": "/CountriesList/static/js/2.95ae4d31.chunk.js",
-    "static/js/2.95ae4d31.chunk.js.map": "/CountriesList/static/js/2.95ae4d31.chunk.js.map",
-    "static/js/3.2b960183.chunk.js": "/CountriesList/static/js/3.2b960183.chunk.js",
-    "static/js/3.2b960183.chunk.js.map": "/CountriesList/static/js/3.2b960183.chunk.js.map",
+    "main.css": "/CountriesList/static/css/main.a45e2e78.chunk.css",
+    "main.js": "/CountriesList/static/js/main.74c4d437.chunk.js",
+    "main.js.map": "/CountriesList/static/js/main.74c4d437.chunk.js.map",
+    "runtime-main.js": "/CountriesList/static/js/runtime-main.6876ce66.js",
+    "runtime-main.js.map": "/CountriesList/static/js/runtime-main.6876ce66.js.map",
+    "static/css/2.25e2b812.chunk.css": "/CountriesList/static/css/2.25e2b812.chunk.css",
+    "static/js/2.4e64dc80.chunk.js": "/CountriesList/static/js/2.4e64dc80.chunk.js",
+    "static/js/2.4e64dc80.chunk.js.map": "/CountriesList/static/js/2.4e64dc80.chunk.js.map",
+    "static/js/3.bee07cbe.chunk.js": "/CountriesList/static/js/3.bee07cbe.chunk.js",
+    "static/js/3.bee07cbe.chunk.js.map": "/CountriesList/static/js/3.bee07cbe.chunk.js.map",
     "index.html": "/CountriesList/index.html",
-    "static/css/2.de62a3fb.chunk.css.map": "/CountriesList/static/css/2.de62a3fb.chunk.css.map",
-    "static/css/main.7510bc32.chunk.css.map": "/CountriesList/static/css/main.7510bc32.chunk.css.map",
-    "static/js/2.95ae4d31.chunk.js.LICENSE.txt": "/CountriesList/static/js/2.95ae4d31.chunk.js.LICENSE.txt",
+    "static/css/2.25e2b812.chunk.css.map": "/CountriesList/static/css/2.25e2b812.chunk.css.map",
+    "static/css/main.a45e2e78.chunk.css.map": "/CountriesList/static/css/main.a45e2e78.chunk.css.map",
+    "static/js/2.4e64dc80.chunk.js.LICENSE.txt": "/CountriesList/static/js/2.4e64dc80.chunk.js.LICENSE.txt",
     "static/media/ad.svg": "/CountriesList/static/media/ad.25ac0ed2.svg",
     "static/media/flag-icon.min.css": "/CountriesList/static/media/zw.f5ceeff7.svg",
     "static/media/ae.svg": "/CountriesList/static/media/ae.3cb683e7.svg",
@@ -153,6 +153,7 @@
     "static/media/lc.svg": "/CountriesList/static/media/lc.cb052707.svg",
     "static/media/li.svg": "/CountriesList/static/media/li.813c4b04.svg",
     "static/media/lk.svg": "/CountriesList/static/media/lk.96b93cda.svg",
+    "static/media/loading.c7d9f081.gif": "/CountriesList/static/media/loading.c7d9f081.gif",
     "static/media/logo.49e5b5f7.svg": "/CountriesList/static/media/logo.49e5b5f7.svg",
     "static/media/lr.svg": "/CountriesList/static/media/lr.45b0874c.svg",
     "static/media/ls.svg": "/CountriesList/static/media/ls.bfda25f0.svg",
@@ -283,10 +284,10 @@
     "static/media/zw.svg": "/CountriesList/static/media/zw.0f24efd0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.10ac2a1c.js",
-    "static/css/2.de62a3fb.chunk.css",
-    "static/js/2.95ae4d31.chunk.js",
-    "static/css/main.7510bc32.chunk.css",
-    "static/js/main.ebda1385.chunk.js"
+    "static/js/runtime-main.6876ce66.js",
+    "static/css/2.25e2b812.chunk.css",
+    "static/js/2.4e64dc80.chunk.js",
+    "static/css/main.a45e2e78.chunk.css",
+    "static/js/main.74c4d437.chunk.js"
   ]
 }
