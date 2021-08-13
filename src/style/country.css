@@ -1,0 +1,132 @@
+.country-page-div {
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  border-radius: 1.5rem;
+  z-index: 100;
+  display: flex;
+  animation: scale 1000ms ease;
+}
+
+.country-page-div[theme="dark"] {
+  background: var(--dark-mode-dark-secondary);
+  color: var(--dark-mode-white-font);
+}
+
+.country-page-div[theme="light"] {
+  background: var(--light-mode-white-secondary);
+  color: var(--light-mode-dark-font);
+}
+
+.country-favourite-img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.country-favourite-img[theme="light"] {
+  filter: invert(90%) sepia(0%) saturate(4%) hue-rotate(149deg) brightness(93%)
+    contrast(89%);
+}
+
+.country-favourite-img[theme="dark"] {
+  color: black;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(26deg)
+    brightness(102%) contrast(104%);
+}
+
+.country-favourite-img[favourite="true"] {
+  filter: invert(19%) sepia(82%) saturate(5594%) hue-rotate(335deg)
+    brightness(82%) contrast(105%);
+}
+
+.country-favourite-img-div {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+.country-page-div {
+  display: none;
+}
+
+.country-page-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.country-page-favourite-img-div {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.country-page-top-bar-div {
+  position: relative;
+  height: 50px;
+  width: 100%;
+}
+
+.country-page-country-name {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.country-page-country-name::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 50%;
+  background-color: var(--light-mode-white-quaternary);
+  height: 1px;
+}
+
+.country-page-content-div {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.country-page-content-left-div {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 700px;
+}
+
+.country-page-flag-div {
+  display: flex;
+  justify-content: center;
+  margin: 21px;
+}
+
+.country-page-flag-img {
+  display: block;
+  width: auto;
+  height: 200px;
+  align-items: center;
+}
+
+.country-page-map-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  min-height: 800px;
+  z-index: 100000;
+}
+
+.country-page-map-div img {
+  max-height: none;
+}

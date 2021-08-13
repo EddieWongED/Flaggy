@@ -19,5 +19,7 @@
     "population": "Population",
     "area": "Area",
     "type": "Type",
-    "showFavouriteOnly": "Show Favourite Only"
+    "showFavouriteOnly": "Show Favourite Only",
+    "map": "Map",
+    "home": "Home Page"
 }

@@ -10,8 +10,13 @@ import './style/miscellaneous.css'
 
 import {ThemeContext} from './Theme'
 import CountriesSection from './Component/CountriesSection.js'
+import WorldMap from './Component/WorldMap.js'
 import NavBar from './Component/NavBar.js'
 import TopBar from './Component/TopBar.js'
+import Country from './Component/Country.js'
+import Error from './Component/Error.js'
+
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 // const resource = createResource();
 // console.log(resource);
@@ -39,36 +44,49 @@ function App() {
   }
 
   return (
-    <ThemeContext.Provider
-    value={theme}>
-      <div 
-      className="page-root-div"
-      theme={theme}>
-        <TopBar
-        navBarShown={navBarShown}
-        setNavBarShown={setNavBarShown}/>
-        <div className="main-content-div">
-          <div
-          className="page-left-div"
-          theme={theme}>
-            <NavBar
-            navBarShown={navBarShown}
-            setNavBarShown={setNavBarShown}
-            handleThemeClick={handleThemeClick}/>
-          </div>
-          <div
-          className="page-right-div"
-          theme={theme}>
+    <BrowserRouter basename="Flaggy">
+      <ThemeContext.Provider
+      value={theme}>
+        <div 
+        className="page-root-div"
+        theme={theme}>
+          <TopBar
+          navBarShown={navBarShown}
+          setNavBarShown={setNavBarShown}/>
+          <div className="main-content-div">
             <div
-            id="bottom-div"
-            className="bottom-div">
-              <CountriesSection/>
+            className="page-left-div"
+            theme={theme}>
+              <NavBar
+              navBarShown={navBarShown}
+              setNavBarShown={setNavBarShown}
+              handleThemeClick={handleThemeClick}/>
+            </div>
+            <div
+            className="page-right-div"
+            theme={theme}>
+                <Switch>
+                  <Route path="/map" component={WorldMap}/>
+                  <Route path="/" component={MainContent} exact="true"/>
+                  <Route path="/country/:code" component={Country} exact/>
+                  <Route component={Error}/>
+                </Switch>
             </div>
           </div>
         </div>
-      </div>
-    </ThemeContext.Provider>
+      </ThemeContext.Provider>
+    </BrowserRouter>
   );
+}
+
+const MainContent = () => {
+    return (
+      <div
+      id="home-div"
+      className="home-div">
+        <CountriesSection/>
+      </div>
+    )
 }
 
 function createLocalStorage() {

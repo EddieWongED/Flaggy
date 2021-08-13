@@ -1,15 +1,13 @@
 /* eslint-disable */
-import React, { Suspense } from 'react'
+import React from 'react'
 import "../style/countries.css"
 import '../index.css'
 import "../style/miscellaneous.css"
+import { Link } from 'react-router-dom';
 import {ThemeContext} from '../Theme';
-import { useTranslation, withTranslation } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 import Delayed from './Delayed';
-import Map from "./Map"
 import favouriteImg from "../icons/favouriteIcon.svg"
-import crossImg from "../icons/cross.svg"
-import "../style/miscellaneous.css"
 
 const flags = {};
 
@@ -19,132 +17,20 @@ function importAll(r) {
 
 importAll(require.context("../icons/flag", false, /\.(png|jpe?g|svg)$/));
 
-const PreviewCountry = (props) => {
-
-  const context = React.useContext(ThemeContext);
-  const {country, enlarged, favourite, handleFavouriteClick} = props;
-
-  return (
-    <div
-    className="country-preview-div"
-    enlarged={(enlarged === country.ISO2).toString()}>
-      <div
-      className="country-preview-favourite-img-div no-select"
-      enlarged={(enlarged === country.ISO2).toString()}>
-        <img
-        src={favouriteImg}
-        id={country.ISO2}
-        className="country-favourite-img"
-        height="40"
-        width="40"
-        theme={context}
-        favourite={favourite.toString()}
-        onClick={handleFavouriteClick}
-        draggable={false}/>
-      </div>
-      <div
-      className="country-preview-content-div"
-      enlarged={(enlarged === country.ISO2).toString()}>
-        <div
-        className="country-flag-div no-select">
-          <CountryFlag
-          country={country}/>
-        </div>
-        <div
-        className="country-title-div">  
-          <CountryName
-          country={country}/>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-const EnlargedCountry = (props) => {
-
-  const context = React.useContext(ThemeContext);
-  const {country, enlarged, handleEnlargedChange, favourite, handleFavouriteClick} = props;
-  const {name} = country;
-
-  function handleCountryCancelClick(e) {
-      e.stopPropagation();
-      handleEnlargedChange(null);
-  } 
-  return (
-  <div
-  className="country-enlarged-div"
-  enlarged={(enlarged === country.ISO2).toString()}>
-    <div
-    className="country-enlarged-top-bar-div">
-      <div
-      className="country-enlarged-country-name">
-        {name}
-      </div>
-      <div
-      className="country-enlarged-favourite-img-div no-select"
-      enlarged={(enlarged === country.ISO2).toString()}>
-        <img
-        src={favouriteImg}
-        id={country.ISO2}
-        className="country-favourite-img"
-        height="40"
-        width="40"
-        theme={context}
-        favourite={favourite.toString()}
-        onClick={handleFavouriteClick}/>
-      </div>
-      <div
-      className="country-cross-img-div no-select"
-      onClick={handleCountryCancelClick}>
-              <img
-              className="country-cross-img"
-              src={crossImg}
-              height="24"
-              width="24"/>
-      </div>
-    </div>
-    <div
-    className="country-enlarged-content-div"
-    enlarged={(enlarged === country.ISO2).toString()}>
-        <div
-        className="country-enlarged-content-left-div">
-          <div
-          className="country-enlarged-flag-div no-select">
-            <CountryEnlargedFlag
-            country={country}/>
-          </div>
-          <div
-          className="content-table-div">
-            <CountryMetadata
-            country={country}/>
-          </div>
-        </div>
-        <div
-        className="country-enlarged-map-div">
-            <Delayed
-            waitBeforeShow={500} animation={true}>
-              <Map country={country}/>
-            </Delayed>
-        </div>
-    </div>
-  </div>
-  );
-}
 const Country = (props) => {
+  const {country} = props;
   
-  const {country, enlarged, handleEnlargedChange} = props;
-  
+  const {ISO2} = country;
+
   const [favourite, setFavourite] = React.useState(JSON.parse(localStorage.getItem("favourite")).includes(country.ISO2));
   
   const context = React.useContext(ThemeContext);
 
   const handleFavouriteClick = (e) => {
     e.stopPropagation();
-
     setFavourite( (prevState) => {
       return !prevState;
     })
-
     if (JSON.parse(localStorage.getItem("favourite")).includes(country.ISO2)) {
       const newFavList = JSON.parse(localStorage.getItem("favourite")).filter((e) => {
         return e !== country.ISO2;
@@ -157,32 +43,40 @@ const Country = (props) => {
     }
   }
   
-  const handleCountryClick = (e) => {
-    e.preventDefault();
-    handleEnlargedChange(country.ISO2);
-  }
-
   return (
-    <React.Fragment>
+    <Link to={`/country/${ISO2}`} className="no-hyperlink-effect">
       <div
       className='country-div'
-      id={country.ISO2}
-      theme={context}
-      onClick={handleCountryClick}
-      enlarged={(enlarged === country.ISO2).toString()}>
-        <PreviewCountry
-        country={country}
-        enlarged={enlarged}
-        favourite={favourite}
-        handleFavouriteClick={handleFavouriteClick}/>
-        <EnlargedCountry
-        country={country}
-        enlarged={enlarged}
-        handleEnlargedChange={handleEnlargedChange}
-        favourite={favourite}
-        handleFavouriteClick={handleFavouriteClick}/>
+      id={ISO2}
+      theme={context}>
+        <div
+        className="country-favourite-img-div no-select">
+          <img
+          src={favouriteImg}
+          id={country.ISO2}
+          className="country-favourite-img"
+          height="40"
+          width="40"
+          theme={context}
+          favourite={favourite.toString()}
+          onClick={handleFavouriteClick}
+          draggable={false}/>
+        </div>
+        <div
+        className="country-content-div">
+          <div
+          className="country-flag-div no-select">
+            <CountryFlag
+            country={country}/>
+          </div>
+          <div
+          className="country-title-div">  
+            <CountryName
+            country={country}/>
+          </div>
+        </div>
       </div>
-    </React.Fragment>
+    </Link>
   )
 }
   
@@ -205,25 +99,6 @@ const CountryFlag = (props) => {
   )
 }
 
-const CountryEnlargedFlag = (props) => {
-  const {country} = props
-  const {name, ISO2} = country;
-
-  const flagDir = "./" + ISO2.toLowerCase() + ".svg";
-  var flag = null;
-  if (flags[flagDir] !== undefined) {
-    flag = flags[flagDir].default;
-  }
-   
-  return (
-    <img
-    className="country-enlarged-flag-img"
-    src={flag}
-    alt={name}
-    draggable={false}/>
-  )
-}
-
 const CountryName = (props) => {
   const {name} = props.country;
   return (
@@ -234,115 +109,15 @@ const CountryName = (props) => {
   )
 }
 
-const CountryMetadata = (props) => {
-  const {ISO2, ISO3, continent, language, capital, currency, population, area} = props.country;
-  const context = React.useContext(ThemeContext);
-  const {t} = useTranslation()
 
-  return (
-    <table
-    className="content-table"
-    theme={context}>
-      <thead>
-          <tr>
-              <th
-              className="no-select">
-                {t("metadata")}
-              </th>
-              <th
-              className="no-select">
-                {t("value")}
-              </th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td
-              className="no-select">
-                {t("ISO2")}
-              </td>
-              <td>
-                {ISO2}
-              </td>
-          </tr>
-          <tr>
-              <td
-              className="no-select">
-                {t("ISO3")}
-              </td>
-              <td>
-                {ISO3}
-              </td>
-          </tr>
-          <tr>
-              <td
-              className="no-select">
-                {t("continent")}
-              </td>
-              <td>
-                {continent}
-              </td>
-          </tr>
-          <tr>
-              <td
-              className="no-select">
-                {t("language")}
-              </td>
-              <td>
-                {language.join(", ")}
-              </td>
-          </tr>
-          <tr>
-              <td
-              className="no-select">
-                {t("capital")}
-              </td>
-              <td>
-                {capital}
-              </td>
-          </tr>
-          <tr>
-              <td
-              className="no-select">
-                {t("currency")}
-              </td>
-              <td>
-                {currency}
-              </td>
-          </tr>
-          <tr>
-              <td
-              className="no-select">
-                {t("population")}
-              </td>
-              <td>
-                {population.toLocaleString()}
-              </td>
-          </tr>
-          <tr>
-              <td
-              className="no-select">
-                {t("area")} (km²)
-              </td>
-              <td>
-                {area.toLocaleString()}
-              </td>
-          </tr>
-      </tbody>
-    </table>
-  )
-}
-
-const  JSXCountries = (countries, endlarged, handleEnlargedChange) => {
+const  JSXCountries = (countries) => {
   return (countries.map((country, index) => {
       return (
         <Delayed
         waitBeforeShow={10 * index}>
           <Country
           key={country.ISO2}
-          country={country}
-          handleEnlargedChange={handleEnlargedChange}
-          enlarged={endlarged}/>
+          country={country}/>
         </Delayed>
       );
   })
@@ -351,14 +126,7 @@ const  JSXCountries = (countries, endlarged, handleEnlargedChange) => {
 class Countries extends React.Component {
   constructor(props) {
     super(props);
-    this.handleEnlargedChange = this.handleEnlargedChange.bind(this);
-    this.state = {enlarged: null, countries: this.props.t("countries:memberOfUNCountries", {returnObjects: true})};
-  }
-
-  handleEnlargedChange(ISO2) {
-    this.setState((prevState) => {
-      return {...prevState, enlarged: ISO2};
-    })
+    this.state = {countries: this.props.t("countries:memberOfUNCountries", {returnObjects: true})};
   }
 
   componentWillReceiveProps(prevProps, prevState) {
@@ -453,15 +221,12 @@ class Countries extends React.Component {
 
   render() {
     console.log("rendering Countries");
-    console.log("enlarged=", this.state.enlarged);
-    
+
     return (
         <React.Fragment>
-          {JSXCountries(this.state.enlarged !== null ? this.props.t("countries:memberOfUNCountries", {returnObjects: true}).filter((country) => country.ISO2 === this.state.enlarged) : this.state.countries, this.state.enlarged, this.handleEnlargedChange)}
+          {JSXCountries(this.state.countries)}
         </React.Fragment>
   )}
-
 }
-
 
 export default withTranslation()(Countries);

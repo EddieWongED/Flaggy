@@ -1,5 +1,4 @@
 import React from 'react';
-import L, { LatLngExpression } from "leaflet";
 import "../style/map.css"
 import "leaflet/dist/leaflet.css";
 import {useMap, MapContainer, TileLayer, GeoJSON} from 'react-leaflet';
@@ -11,7 +10,7 @@ const areaZoomConversion = (area) => {
         return 3;
     } else if (area > 1500000) {
         return 4;
-    } else if (area > 350000) {
+    } else if (area > 240000) {
         return 5;
     } else if (area > 25000) {
         return 6;
@@ -24,7 +23,7 @@ const areaZoomConversion = (area) => {
     } else if (area > 0) {
         return 10;
     }
-    return 1;
+    return 2;
 }
 
 const MapLoader = () => {
@@ -52,7 +51,12 @@ const MapFocuser = (props) => {
 const Map = (props) => {
 
     const {country} = props;
-    const {ISO3, area} = country;
+
+    var ISO3, area;
+    if (country !== undefined) {
+        ISO3 = country.ISO3;
+        area = country.area;
+    }
 
     const [geoJSON, setGeoJSON] = React.useState(null);
 
@@ -83,10 +87,9 @@ const Map = (props) => {
     
     return (
     <MapContainer
-    center={[33.939110, 67.709953]}
+    center={[0, 0]}
     zoom={areaZoomConversion(area)}
-    scrollWheelZoom={true}
-    >
+    scrollWheelZoom={true}>
         <MapLoader/>
         <MapFocuser geoJSON={geoJSON}/>
         <TileLayer
