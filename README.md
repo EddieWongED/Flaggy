@@ -1,4 +1,4 @@
-# [Flaggy](https://eddiewonged.github.io/Flaggy/) :rainbow_flag: ![License Shield](https://img.shields.io/apm/l/vim-mode)
+# [Flaggy](https://eddiewonged.github.io/Flaggy/) :rainbow_flag: ![License Shield](https://img.shields.io/apm/l/vim-mode) ![Last Update Shield](https://img.shields.io/github/last-commit/EddieWongED/Flaggy) ![Website Status Shield](https://img.shields.io/website/https/github.com/EddieWongED/Flaggy.svg)
 
 Flaggy is a [React](https://reactjs.org/) project for learning flags and geographical locations of different countries/territories/dependencies.
 
