@@ -44,7 +44,7 @@ const Country = (props) => {
   }
   
   return (
-    <Link to={`/country/${ISO2}`} className="no-hyperlink-effect">
+    
       <div
       className='country-div'
       id={ISO2}
@@ -62,21 +62,22 @@ const Country = (props) => {
           onClick={handleFavouriteClick}
           draggable={false}/>
         </div>
-        <div
-        className="country-content-div">
+        <Link to={`/country/${ISO2}`} className="no-hyperlink-effect">
           <div
-          className="country-flag-div no-select">
-            <CountryFlag
-            country={country}/>
+          className="country-content-div">
+            <div
+            className="country-flag-div no-select">
+              <CountryFlag
+              country={country}/>
+            </div>
+            <div
+            className="country-title-div">  
+              <CountryName
+              country={country}/>
+            </div>
           </div>
-          <div
-          className="country-title-div">  
-            <CountryName
-            country={country}/>
-          </div>
-        </div>
+        </Link>
       </div>
-    </Link>
   )
 }
   

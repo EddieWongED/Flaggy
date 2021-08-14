@@ -16,7 +16,6 @@
   display: flex;
   justify-content: space-around;
   padding: 1rem 2rem;
-  cursor: pointer;
 }
 
 .country-div[theme="dark"] {
@@ -31,6 +30,7 @@
 .country-content-div {
   text-align: center;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .country-flag-div {
@@ -134,13 +134,6 @@
   align-items: center;
   height: 50px;
   width: 100%;
-}
-
-.country-cross-img-div {
-  position: absolute;
-  right: 2px;
-  top: 7px;
-  cursor: pointer;
 }
 
 .content-table-div {
