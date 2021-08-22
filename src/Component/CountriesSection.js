@@ -13,6 +13,7 @@ class CountriesSection extends React.Component {
         super(props);
         this.handleSearchChange = this.handleSearchChange.bind(this);
         this.handleSortChange = this.handleSortChange.bind(this);
+        this.handleSearchValueChange = this.handleSearchValueChange.bind(this);
         this.handleFilterTypeChange = this.handleFilterTypeChange.bind(this);
         this.handleFilterValueChange = this.handleFilterValueChange.bind(this);
         this.handleFavouriteFilterChange = this.handleFavouriteFilterChange.bind(this);
@@ -101,13 +102,22 @@ class CountriesSection extends React.Component {
         });
     }
 
+    handleSearchValueChange(newSearchValue) {
+        console.log("hi");
+        
+        this.setState((prevState) => {
+            return {...prevState, searchValue: newSearchValue};
+        });
+    }
+
     render() {
     console.log("rendering CountriesSection");
     
     return (
         <React.Fragment> 
             <Tab 
-            handleSearchChange={this.handleSearchChange} 
+            handleSearchChange={this.handleSearchChange}
+            handleSearchValueChange={this.handleSearchValueChange} 
             searchValue={this.state.searchValue} 
             handleSortChange={this.handleSortChange} 
             sortValue={this.state.sortValue} 

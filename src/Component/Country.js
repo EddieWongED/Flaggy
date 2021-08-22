@@ -41,7 +41,7 @@ const Country = () => {
     const context = React.useContext(ThemeContext);
     const { t } = useTranslation();
     const countries = t("countries:memberOfUNCountries", {returnObjects: true});
-
+    
     const country = findCountry(countries, code) || {name:"", ISO2:""};
 
         const {name} = country;

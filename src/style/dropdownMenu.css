@@ -32,9 +32,6 @@
   background: var(--light-mode-white-quaternary);
 }
 
-.dropdown-btn[theme="light"] {
-}
-
 .dropdown-btn .dropdown-div {
   position: relative;
   display: inline-block;

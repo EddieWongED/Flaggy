@@ -1,0 +1,117 @@
+.search-dropdown-content-div {
+  position: absolute;
+  left: 10px;
+  width: 50%;
+  max-height: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.search-dropdown-content-div[dropdownShown="true"] {
+  display: flex;
+}
+
+.search-dropdown-content-div[dropdownShown="false"] {
+  display: none;
+}
+
+.search-dropdown-content-div[theme="light"] {
+  background-color: var(--light-mode-white-primary);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.search-dropdown-content-div[theme="dark"] {
+  background-color: var(--dark-mode-dark-primary);
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.8);
+}
+
+.search-dropdown-option-div {
+  border: none;
+  min-width: 100%;
+  min-height: 50px;
+  text-decoration: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search-dropdown-option-div[theme="light"] {
+  background-color: var(--light-mode-white-primary);
+  color: var(--light-mode-dark-font);
+}
+
+.search-dropdown-option-div[theme="light"]:hover {
+  background-color: var(--light-mode-white-secondary);
+}
+
+.search-dropdown-option-div[theme="dark"] {
+  background-color: var(--dark-mode-dark-primary);
+  color: var(--dark-mode-white-font);
+}
+
+.search-dropdown-option-div[theme="dark"]:hover {
+  background-color: var(--neon-blue);
+}
+
+.search-input {
+  color: #222;
+  font-size: 20px;
+  line-height: 28px;
+  width: 50%;
+  padding: 8px 16px;
+  max-height: 54px;
+  border-radius: 4px;
+  margin-left: 10px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px black;
+  transition: width 500ms ease-in-out, visibility 450ms ease;
+}
+
+.search-input[theme="dark"] {
+  background-color: var(--dark-mode-dark-quaternary);
+  color: var(--dark-mode-white-font);
+}
+
+.search-input[theme="dark"]::placeholder {
+  color: var(--dark-mode-white-font);
+  opacity: 0.5;
+}
+
+.search-input[theme="light"] {
+  box-shadow: 1px 1px 1px var(--light-mode-dark-font);
+}
+
+.search-bar-div {
+  position: relative;
+  width: 100%;
+}
+
+.search-dropdown-option-flag-img {
+  height: 30px;
+}
+
+.search-dropdown-option-flag-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.search-dropdown-option-ISO3-div {
+  width: 65px;
+}
+
+.search-dropdown-option-name-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  width: 100%;
+}

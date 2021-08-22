@@ -1,7 +1,11 @@
 import React from 'react';
-import "../style/map.css"
+import L from 'leaflet';
 import "leaflet/dist/leaflet.css";
-import {useMap, MapContainer, TileLayer, GeoJSON} from 'react-leaflet';
+import { renderToStaticMarkup } from 'react-dom/server';
+import { divIcon } from 'leaflet';
+import {useMap, MapContainer, TileLayer, GeoJSON, Marker, Popup} from 'react-leaflet';
+import iconImg from '../icons/logo.svg';
+import "../style/map.css"
 
 const areaZoomConversion = (area) => {
     if (area > 15000000) {
@@ -48,14 +52,28 @@ const MapFocuser = (props) => {
     return null;
 }
 
-const Map = (props) => {
+var markerIcon = L.icon({
+    iconUrl: require('../icons/logo.svg'),
+    shadowUrl: require('../icons/logo.svg'),
 
+    iconSize:     [38, 95], // size of the icon
+    shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+
+const Map = (props) => {
+    
     const {country} = props;
 
-    var ISO3, area;
+    var ISO3, area, capitalPosition, capital;
+
     if (country !== undefined) {
         ISO3 = country.ISO3;
         area = country.area;
+        capital = country.capital;
+        capitalPosition = [country.capitalLatitude, country.capitalLongitude]
     }
 
     const [geoJSON, setGeoJSON] = React.useState(null);
@@ -85,13 +103,31 @@ const Map = (props) => {
         };
       }
     
+    const iconMarkup = renderToStaticMarkup(<img src={iconImg} alt="marker" height="40px"/>);
+    const customMarkerIcon = divIcon({
+        html: iconMarkup,
+        className: ""
+      });
+    
+    const MarkerHandler = (e) => {
+        console.log(e);
+    }
+
     return (
     <MapContainer
-    center={[0, 0]}
+    center={[12, 12]}
     zoom={areaZoomConversion(area)}
     scrollWheelZoom={true}>
         <MapLoader/>
-        <MapFocuser geoJSON={geoJSON}/>
+        <MapFocuser
+        geoJSON={geoJSON}/>
+        <Marker
+        icon={customMarkerIcon}
+        position={capitalPosition}>
+            <Popup className="capital-popup">
+                {capital}
+            </Popup>
+        </Marker>
         <TileLayer
         url='https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}'
         attribution='Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'

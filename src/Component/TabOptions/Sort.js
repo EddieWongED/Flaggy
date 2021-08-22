@@ -89,7 +89,6 @@ const Sort = (props) => {
     return (
         <div
         id="sort-div"
-        ref={props.sortDiv}
         className="sort-div"
         tabOpened={props.tabOpened}>
             {props.sortValue

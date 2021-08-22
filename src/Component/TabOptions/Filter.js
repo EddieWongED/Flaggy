@@ -237,8 +237,7 @@ const Filter = (props) => {
     
     return (
         <div 
-        id="filter-div" 
-        ref={props.filterDiv} 
+        id="filter-div"  
         className="filter-div" 
         tabOpened={tabOpened}>
             {Object.keys(filterType).map((key) => {

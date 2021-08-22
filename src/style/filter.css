@@ -1,3 +1,12 @@
+.filter-type-text-div,
+.filter-value-text-div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
 .filter-option-div,
 .filter-add-img-div {
   position: relative;

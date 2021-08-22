@@ -89,7 +89,7 @@ class TabOptions extends React.Component {
 let TabOption = withTranslation()(TabOptions);
 
 const Tab = (props) => {
-    const {handleSearchChange, searchValue, handleSortChange, sortValue, handleFilterTypeChange, filterType, handleFilterValueChange, filterValue, handleFavouriteFilterChange, favouriteFilter} = props;
+    const {handleSearchChange, handleSearchValueChange, searchValue, handleSortChange, sortValue, handleFilterTypeChange, filterType, handleFilterValueChange, filterValue, handleFavouriteFilterChange, favouriteFilter} = props;
     const [tabOpened, setTabOpened] = React.useState();
     const context = React.useContext(ThemeContext);
     
@@ -119,6 +119,7 @@ const Tab = (props) => {
                         <Search
                         tabOpened={tabOpened}
                         handleSearchChange={handleSearchChange}
+                        handleSearchValueChange={handleSearchValueChange}
                         searchValue={searchValue}/>
                         <Favourite
                         tabOpened={tabOpened}
