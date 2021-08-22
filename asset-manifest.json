@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Flaggy/static/css/main.5fe4c57f.chunk.css",
-    "main.js": "/Flaggy/static/js/main.e5bb0901.chunk.js",
-    "main.js.map": "/Flaggy/static/js/main.e5bb0901.chunk.js.map",
-    "runtime-main.js": "/Flaggy/static/js/runtime-main.76e2b056.js",
-    "runtime-main.js.map": "/Flaggy/static/js/runtime-main.76e2b056.js.map",
+    "main.css": "/Flaggy/static/css/main.7ccb5f38.chunk.css",
+    "main.js": "/Flaggy/static/js/main.9444954e.chunk.js",
+    "main.js.map": "/Flaggy/static/js/main.9444954e.chunk.js.map",
+    "runtime-main.js": "/Flaggy/static/js/runtime-main.31473916.js",
+    "runtime-main.js.map": "/Flaggy/static/js/runtime-main.31473916.js.map",
     "static/css/2.dac8106a.chunk.css": "/Flaggy/static/css/2.dac8106a.chunk.css",
-    "static/js/2.ddfebec4.chunk.js": "/Flaggy/static/js/2.ddfebec4.chunk.js",
-    "static/js/2.ddfebec4.chunk.js.map": "/Flaggy/static/js/2.ddfebec4.chunk.js.map",
-    "static/js/3.c6ea3dcb.chunk.js": "/Flaggy/static/js/3.c6ea3dcb.chunk.js",
-    "static/js/3.c6ea3dcb.chunk.js.map": "/Flaggy/static/js/3.c6ea3dcb.chunk.js.map",
+    "static/js/2.6a99b394.chunk.js": "/Flaggy/static/js/2.6a99b394.chunk.js",
+    "static/js/2.6a99b394.chunk.js.map": "/Flaggy/static/js/2.6a99b394.chunk.js.map",
+    "static/js/3.9b7f7d2f.chunk.js": "/Flaggy/static/js/3.9b7f7d2f.chunk.js",
+    "static/js/3.9b7f7d2f.chunk.js.map": "/Flaggy/static/js/3.9b7f7d2f.chunk.js.map",
     "index.html": "/Flaggy/index.html",
     "static/css/2.dac8106a.chunk.css.map": "/Flaggy/static/css/2.dac8106a.chunk.css.map",
-    "static/css/main.5fe4c57f.chunk.css.map": "/Flaggy/static/css/main.5fe4c57f.chunk.css.map",
-    "static/js/2.ddfebec4.chunk.js.LICENSE.txt": "/Flaggy/static/js/2.ddfebec4.chunk.js.LICENSE.txt",
+    "static/css/main.7ccb5f38.chunk.css.map": "/Flaggy/static/css/main.7ccb5f38.chunk.css.map",
+    "static/js/2.6a99b394.chunk.js.LICENSE.txt": "/Flaggy/static/js/2.6a99b394.chunk.js.LICENSE.txt",
     "static/media/ad.svg": "/Flaggy/static/media/ad.25ac0ed2.svg",
     "static/media/flag-icon.min.css": "/Flaggy/static/media/zw.f5ceeff7.svg",
     "static/media/ae.svg": "/Flaggy/static/media/ae.3cb683e7.svg",
@@ -154,7 +154,7 @@
     "static/media/li.svg": "/Flaggy/static/media/li.813c4b04.svg",
     "static/media/lk.svg": "/Flaggy/static/media/lk.96b93cda.svg",
     "static/media/loading.c7d9f081.gif": "/Flaggy/static/media/loading.c7d9f081.gif",
-    "static/media/logo.11b0ea03.svg": "/Flaggy/static/media/logo.11b0ea03.svg",
+    "static/media/logo.svg": "/Flaggy/static/media/logo.11b0ea03.svg",
     "static/media/lr.svg": "/Flaggy/static/media/lr.45b0874c.svg",
     "static/media/ls.svg": "/Flaggy/static/media/ls.bfda25f0.svg",
     "static/media/lt.svg": "/Flaggy/static/media/lt.170086e9.svg",
@@ -284,10 +284,10 @@
     "static/media/zw.svg": "/Flaggy/static/media/zw.0f24efd0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.76e2b056.js",
+    "static/js/runtime-main.31473916.js",
     "static/css/2.dac8106a.chunk.css",
-    "static/js/2.ddfebec4.chunk.js",
-    "static/css/main.5fe4c57f.chunk.css",
-    "static/js/main.e5bb0901.chunk.js"
+    "static/js/2.6a99b394.chunk.js",
+    "static/css/main.7ccb5f38.chunk.css",
+    "static/js/main.9444954e.chunk.js"
   ]
 }
